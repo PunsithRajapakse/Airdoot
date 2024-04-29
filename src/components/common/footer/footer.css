@@ -1,58 +1,130 @@
-.footerContact {
-  background-color: #27ae60;
-  padding: 40px 0;
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #a2a0a0;
   color: #fff;
-}
-.footerContact h1 {
-  font-size: 40px;
-}
-footer {
-  background-color: #1d2636;
-  padding: 50px 0;
-  color: #fff;
-}
-footer .container {
-  display: grid;
-  grid-template-columns: 6fr 2fr 2fr 1fr;
-  grid-gap: 20px;
-}
-footer img {
-  width: 150px;
-}
-footer h2 {
-  font-weight: 500;
-}
-footer p {
-  color: grey;
-  margin: 20px 0;
-}
-footer input {
-  background-color: #fff;
-  padding: 17px;
-  width: 100%;
-  border-radius: 5px;
-}
-footer h3 {
-  font-weight: 500;
-  margin-bottom: 30px;
-}
-footer ul {
-  display: block;
-}
-footer ul li {
-  display: block;
-  color: grey;
-  margin-bottom: 20px;
-}
-.legal {
-  text-align: center;
   padding: 20px;
-  background: #1d2636;
-  color: rgba(255, 255, 255, 0.5);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  height: 300px;
 }
-@media screen and (max-width: 800px) {
-  footer .container {
-    grid-template-columns: repeat(2, 1fr);
-  }
+
+.footer .column {
+  flex: 1;
+  padding: 0 20px;
 }
+
+.footer .column p {
+  margin-top: 30px;
+  color: white;
+}
+
+.footer .logo img {
+  width: 250px;
+  height: auto;
+}
+
+.footer .logo p {
+  margin-top: 20px;
+}
+
+.footer .social-icons {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.footer .social-icon {
+  margin: 0 5px;
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+.footer .social-icon i {
+  transition: transform 0.2s ease; /* Add transition effect */
+}
+
+.footer .social-icon:hover i {
+  transform: scale(1.2); /* Scale up the icon on hover */
+}
+
+
+.footer h3 {
+  font-size: 16px;
+  color: white;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+  margin-top: 50px;
+}
+
+.footer ul li {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.footer input[type="email"],
+button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer .newsletter-form {
+  margin-top: 30px;
+}
+
+.footer input[type="email"] {
+  width: calc(100% - 80px);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.footer button {
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.footer button:hover {
+  background-color: #ccc;
+}
+
+.footer .contact-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.footer .contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.footer .contact-item .icon {
+  margin-right: 10px;
+}
+
+.footer .contact-item p {
+  margin: 0;
+  color: white;
+}
+
+.footer .column .contact-info .contact-item .info{
+  margin-top: 0px;
+}
+
+.footer .additional-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%; /* Make the section take full width */
+}
+
+.footer .additional-links p {
+  margin: 0 10px;
+}
+
