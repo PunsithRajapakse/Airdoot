@@ -1,0 +1,69 @@
+/* Team member card */
+.team .box {
+  background: #ffffff; /* White background */
+  border-radius: 10px; /* Slightly rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  padding: 20px; /* Padding for inner content */
+  transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  margin: 20px; /* Add margin for gap between boxes */
+}
+
+/* Team member card hover effect */
+.team .box:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Team member details */
+.team .details {
+  text-align: center; /* Center align text */
+  margin-top: 20px; /* Spacing from top */
+}
+
+/* Team member image */
+.team .img {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto; /* Center align image */
+  position: relative;
+  border: 5px solid #edf0f5; /* Light border color */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.team img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Icon overlay */
+.team .img i {
+  color: #108be7; /* Blue color for icon */
+  font-size: 17px;
+  position: absolute; /* Position icon relative to image */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center icon */
+}
+
+/* Label */
+.team label {
+  display: block; /* Display label as block element */
+  margin-top: 15px; /* Spacing from top */
+}
+
+/* Button */
+.team .button {
+  display: inline-block; /* Display button as inline-block */
+  padding: 10px 20px; /* Padding for button */
+  margin-top: 15px; /* Spacing from top */
+  background-color: #e9d733; /* Button background color */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Rounded corners for button */
+  text-decoration: none; /* Remove default link decoration */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.team .button:hover {
+  background-color: #bebc1c; /* Darker background color on hover */
+}

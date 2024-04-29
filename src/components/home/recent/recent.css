@@ -1,0 +1,76 @@
+/* Content grid */
+.content.grid5s.mtop {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Shadow box for photos */
+.box.shadow.photo {
+  width: 100%;
+}
+
+/* Photo container */
+.box.shadow.photo .img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Photo */
+.box.shadow.photo .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Recent section */
+.recent .text {
+  padding: 20px;
+}
+
+/* Category */
+.recent .category span {
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-block;
+}
+
+/* Category icon */
+.recent .category i {
+  font-size: 20px;
+  color: #bec7d8;
+}
+
+/* Paragraph */
+.recent p {
+  color: #72809d;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Button */
+.recent .button {
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.recent .button:hover {
+  background-color: #0056b3;
+}

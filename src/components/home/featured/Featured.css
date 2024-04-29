@@ -1,0 +1,28 @@
+/* Full CSS code */
+.featured {
+  background-color: #ffffff;
+  
+}
+.featured header{
+  color: #ffffff;
+}
+.contaner {
+  display: none;
+  margin-left: 100px;
+}
+.featured .box {
+  box-shadow: 0 0 20px 0 rgba(112, 121, 138, 0.18);
+  background-color: #ffffff;
+  border-radius: 6px;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.featured img {
+  width: 65px;
+  height: 65px;
+  margin: auto;
+}
+
