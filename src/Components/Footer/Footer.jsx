@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "./Footer.css";
 import {
   FaEnvelope,
   FaPhone,
@@ -97,7 +97,7 @@ const Footer = () => {
           </div>
           <div className="app">
             <div className="icon">
-              <p>GET THE PARTNER APP</p>
+              <p>Get The Partner App</p>
             </div>
             <div className="store-icons">
               <FaGooglePlay />
