@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="column">
         <div className="logo">
-          <img src="Assets/alogo.png" alt="Logo" />
+          <img src="Assets/full_logo.png" alt="Logo" />
           <p>Best AC Repair And Services In India</p>
         </div>
         <div className="social-icons">
