@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="column" style={{ width: "25%" }}>
+      <div className="column">
         <div className="logo">
           <img src="Assets/alogo.png" alt="Logo" />
           <p>Best AC Repair And Services In India</p>
@@ -40,7 +40,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="column" style={{ width: "15%" }}>
+      <div className="column1">
         <h3>Quick Links</h3>
         <ul>
           <li>
@@ -57,7 +57,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="column" style={{ width: "25%" }}>
+      <div className="column">
         <h3>Sign Up Our Newsletter</h3>
         <p>Stay up to update with our latest news and products</p>
         <div className="newsletter-form">
@@ -68,7 +68,7 @@ const Footer = () => {
           <h3>Coming Soon Services</h3>
         </div>
       </div>
-      <div className="column" style={{ width: "25%" }}>
+      <div className="column" >
         <h3>Contact Us</h3>
         <div className="contact-info">
           <div className="contact-item">
