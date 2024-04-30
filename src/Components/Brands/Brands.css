@@ -1,0 +1,19 @@
+.our-brands-container {
+  background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(4, 1fr); /* 4 rows */
+    grid-gap: 80px; /* Increased spacing between logos */
+    max-width: 800px; /* Adjust container width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .brand-logo {
+    width: 100%; /* Make sure logos fill the container width */
+    max-height: 100%; /* Ensure logos maintain aspect ratio */
+    object-fit: contain; /* Ensure logos maintain aspect ratio */
+  }
+  
+  .brands h1{
+    text-align: center;
+  }
