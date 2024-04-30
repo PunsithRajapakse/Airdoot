@@ -1,16 +1,24 @@
 .footer {
   display: flex;
+  flex-wrap: wrap; /* Allow items to wrap */
   justify-content: space-around;
-  background-color: #a2a0a0;
+  background-color: #0e121e;
   color: #fff;
   padding: 20px;
-  height: 300px;
+  height: auto;
 }
 
 .footer .column {
-  flex: 1;
-  padding: 0 20px;
+  margin-top: 80px;
+  padding-right: 30px;
+  margin-left: 20px;
 }
+
+.footer .column .cservice{
+  margin-top: 50px;
+
+}
+
 
 .footer .column p {
   margin-top: 30px;
@@ -35,7 +43,8 @@
 
 .footer .social-icon {
   margin: 0 5px;
-  font-size: 24px; /* Adjust the font size as needed */
+  font-size: 24px; 
+  margin-right: 15px;
 }
 
 .footer .social-icon i {
@@ -43,25 +52,30 @@
 }
 
 .footer .social-icon:hover i {
-  transform: scale(1.2); /* Scale up the icon on hover */
+  transform: scale(1.2); /* Scale up the icon on hover */
 }
 
-
 .footer h3 {
-  font-size: 16px;
+  font-size: 20px;
   color: white;
+  font-weight: 600;
 }
 
 .footer ul {
   list-style: none;
   padding: 0;
   color: white;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .footer ul li {
   margin-bottom: 5px;
   color: white;
+}
+.footer ul li a {
+  color: white; 
+  text-decoration: none; 
+  line-height: 30px;
 }
 
 .footer input[type="email"],
@@ -76,26 +90,33 @@ button {
 
 .footer input[type="email"] {
   width: calc(100% - 80px);
-  padding: 5px;
-  margin-bottom: 10px;
+  padding: 5px 10px;
+  
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.footer input[type="email"]::placeholder {
+  color: rgba(255, 255, 255, 0.563); 
+  font-size: 14px;
 }
 
 .footer button {
   padding: 5px 10px;
-  background-color: #fff;
-  color: #333;
-  border: none;
+  background-color: #0e121e;
+  color: #ffffff;
+  border: 1px solid white;
   cursor: pointer;
-}
-
-.footer button:hover {
-  background-color: #ccc;
+  border-radius: 20px;
+  margin-left: 10px;
 }
 
 .footer .contact-info {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
+  line-height: 35px;
 }
 
 .footer .contact-item {
@@ -112,8 +133,27 @@ button {
   color: white;
 }
 
-.footer .column .contact-info .contact-item .info{
+.footer .column .contact-info .contact-item .info {
   margin-top: 0px;
+}
+
+.footer .app {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer .store-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.footer .store-icons svg {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
 }
 
 .footer .additional-links {
@@ -121,10 +161,24 @@ button {
   justify-content: center;
   align-items: center;
   color: white;
-  width: 100%; /* Make the section take full width */
+  flex-basis: 85%; /* Take full width */
+  margin-top: 120px; /* Adjust spacing */
+  border-top: 1px solid white;
 }
 
 .footer .additional-links p {
-  margin: 0 10px;
+  margin: 30px 15px;
 }
 
+.footer .additional-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Add vertical lines */
+.footer .additional-links .vertical-line {
+  width: 1px;
+  height: 20px; /* Adjust height as needed */
+  background-color: white;
+  margin: 0 10px;
+}
