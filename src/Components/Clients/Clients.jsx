@@ -14,7 +14,7 @@ const Clients = () => {
 
   return (
     <div className="clients">
-      <h1 style={{ color: "#FFE456" }}>Our Clients</h1>
+      <h1 className="heading">Clientele</h1>
       <br />
       <div className="our-clients-container">
         {brandLogos.map((logo, index) => (

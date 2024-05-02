@@ -55,8 +55,7 @@ const Choose = () => {
               DISCHARGE</div>
             </li>
             <li onClick={handleImageClick}>
-              <img src="Assets/Choose/choose9.png" alt="Logo 9" /> <div className="name2">Packaged Unit
-              (Hi-Static)</div> 
+              <img src="Assets/Choose/choose9.png" alt="Logo 9" /> <div className="name2">Packaged Unit<br/>(Hi-Static)</div> 
             </li>
             <li onClick={handleImageClick}>
               <img src="Assets/Choose/choose1.png" alt="Logo 10" /> <div className="name2">VRF TOP

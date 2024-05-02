@@ -24,7 +24,7 @@ const Brands = () => {
 
   return (
     <div className="brands">
-      <h1 style={{ color: "#FFE456" }}>We Service All Brands</h1><br/>
+      <h1 className="heading">We Service All Brands</h1><br/>
       <div className="our-brands-container">
         {/* Map through brandLogos array to render each brand logo */}
         {brandLogos.map((logo, index) => (
