@@ -1,6 +1,6 @@
 .Applications {
   max-width: 100%;
-  margin-left: 70px;
+  margin-left: 80px;
   margin-right: 70px;
 
   max-height: 1100px;
@@ -15,6 +15,7 @@
 }
 
 .Applications .application_container {
+  margin-top: 80px;
   border-radius: 25px;
   border-color: white;
   display: grid;
@@ -25,8 +26,8 @@
 .Applications .image-box {
   position: relative;
   padding: 10px;
-  height: 300px;
-  width: 300px;
+  height: 280px;
+  width: 280px;
   background-color: #ffffff6f;
   border-radius: 25px; /* Add border-radius */
 }
