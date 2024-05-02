@@ -19,7 +19,7 @@ const Banner = () => {
       <div className="content">
         <div className="search-container">
           {/* Your centered search bar */}
-          <input type="text" placeholder="Enter pin code (India) - Enter area (SriLanka)" />
+          <input type="text" placeholder="Enter pin code (India) - Enter area (Sri Lanka)" />
           {/* Search icon */}
           <FontAwesomeIcon icon={faSearch} className="search-icon" />
         </div>
