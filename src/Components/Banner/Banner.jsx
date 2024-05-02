@@ -1,4 +1,4 @@
-// App.jsx
+
 
 import React from 'react';
 import './Banner.css'; // Correct import path to your CSS file for styling
@@ -6,9 +6,9 @@ import bannerVideo from './banner01.mp4'; // Correct import path to your video f
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
-const App = () => {
+const Banner = () => {
   return (
-    <div className="app">
+    <div className="banner">
       <div className="background-video">
         {/* Embed your background video */}
         <video autoPlay loop muted className="video-background">
@@ -28,4 +28,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Banner;
