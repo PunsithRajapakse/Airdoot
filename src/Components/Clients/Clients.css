@@ -1,6 +1,9 @@
 body {
   background-color: #1b2338;
 }
+.clients{
+  margin-top: 100px;
+}
 
 .clients .our-clients-container {
   
@@ -10,6 +13,8 @@ body {
   grid-gap: 10px;
   max-width: 800px;
   margin: 0 auto;
+  padding-bottom: 80px;
+
 }
 
 .clients .brand-logoc {
