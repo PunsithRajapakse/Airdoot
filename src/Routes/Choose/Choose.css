@@ -1,0 +1,42 @@
+.container {
+  background-color: #0072fe;
+  color: white;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left,
+.right {
+  flex: 1;
+}
+
+.middle {
+  flex: 2;
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.list li img {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
