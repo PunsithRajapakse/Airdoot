@@ -7,9 +7,9 @@ import image4 from './04.png';
 
 const WhatAllWeDo = () => {  
   return (
-    <div>
+    <div className= "wedo">
       <div className="topic-container">
-        <h2>What all we do</h2>
+        <h2>What All We Do</h2>
       </div>
       <div className="boxes-container">
         <div className="box">

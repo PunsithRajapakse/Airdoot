@@ -6,6 +6,7 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  margin-top: 80px;
 }
 
 /* Style for the background video container */
@@ -41,7 +42,7 @@
 
 /* Style for the search input */
 .banner input[type="text"] {
-  width: 300px;
+  width: 500px;
   padding: 10px;
   padding-right: 40px; /* Add space for the search icon */
   border: none;

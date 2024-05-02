@@ -12,7 +12,7 @@ const Choose = () => {
 
   return (
     <div className="choose">
-      <h1 className="header1">Why choose Us</h1>
+      <h1 className="header1">Why Choose Us</h1>
       <div className="content1">
         <div className="left">
           <ul className="list1">
