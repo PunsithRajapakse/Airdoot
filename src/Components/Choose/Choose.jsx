@@ -7,7 +7,7 @@ const Choose = () => {
 
   // Function to handle image click and navigate to service.jsx
   const handleImageClick = () => {
-    history.push("/service"); // Navigate to the '/service' route
+    history.push("services/"); // Navigate to the '/service' route
   };
 
   return (

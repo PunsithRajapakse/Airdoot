@@ -1,0 +1,138 @@
+.more-services {
+    display: grid;
+    margin: 150px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .service-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 550px;
+    
+  }
+  
+  .header {
+    font-size: 16px;
+    font-weight: bold;
+    color: #07794C;
+    margin-right: 300px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 300px;
+  }
+  
+  .rating {
+    font-size: 14px;
+    color: #888;
+    margin-right: 300px;
+  }
+  
+  .price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 300px;
+  }
+  
+  .description {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 200px;
+  }
+  
+  .service-box1{
+    text-align: left;
+  }
+  
+  
+  .add-button {
+    background-color: #CBC6C6;
+    color: #6a1b9a;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 300px;
+  }
+  
+  .service-box1 .details-button{
+    background-color: white;
+    border: 0;
+    color:#6a1b9a ;
+    font-weight: bold;
+  
+  }
+  
+  .service-box1 .card{
+    border: 1px solid #ccc;
+    padding: 50px;
+    border-radius: 20px;
+  }
+  
+  .hrl {
+    width: 200px;
+    margin-right: 350px;
+  }
+  
+  
+  .service-box1 .add-button{
+    margin-left: 350px;
+    position: absolute;
+    margin-top: -30px;
+    width: 80px;
+  }
+  
+  /* .details-button:hover,
+  .add-button:hover {
+    background-color: #4a148c;
+  } */
+  
+  .more-services-button {
+    text-align: center;
+    margin-top: -150px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+  }
+  
+  .more-services-btn {
+    background-color: #74EE9D;
+    color: #ffffff;
+    border: none;
+    margin-left: 0px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  
+  
+  
+  .service-box1 .service-image {
+    float: right; 
+    position: relative; 
+    top: -140px; 
+    right: 0; 
+    width: 150px;
+    margin-left: 20px; 
+  }
+  
