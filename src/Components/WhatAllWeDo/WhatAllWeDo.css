@@ -1,0 +1,75 @@
+/* whatallwedo.css */
+
+/* Style for the topic container */
+.topic-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.topic-container h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #224286;
+}
+
+/* Style for the boxes container */
+.boxes-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow boxes to wrap to the next line */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for individual box */
+.box {
+  width: calc(50% - 30px); /* Two boxes per row with spacing */
+  max-width: 300px; /* Maximum width for larger screens */
+  height: 300px; /* Set a fixed height for the boxes */
+  margin: 0 15px 30px; /* Add bottom margin for spacing */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the image inside box */
+.box .image {
+  width: 50%; /* Make the image fill the box */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 70%; /* Limit image height */
+  border-radius: 10px; /* Apply border-radius to the image */
+}
+
+/* Style for heading inside box */
+.box h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Style for text inside box */
+.box p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .box {
+    width: calc(100% - 30px); /* Single box per row on smaller screens */
+    margin: 0 0 30px; /* Remove side margins for full-width boxes */
+    height: auto; /* Allow boxes to adjust height based on content */
+  }
+
+  .box .image {
+    width: 100%; /* Make the image fill the box */
+    height: 50%; /* Limit image height on smaller screens */
+  }
+}
