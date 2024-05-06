@@ -71,6 +71,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-right: 300px;
+    text-decoration: none;
   }
   
   .service-box1 .details-button{

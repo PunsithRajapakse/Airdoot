@@ -1,0 +1,81 @@
+.form .buy-form-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.form .buy-form-container h2 {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+.form .buy-form-container .buy-form{
+  margin-left: 20px;
+}
+
+.form .buy-form label {
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+.form .buy-form input {
+  background-color: #1b2338;
+  width: 95%;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  height: 40px; /* Set a specific height for all input fields */
+}
+
+.form .buy-form button {
+  height: 40px;
+  width: 100px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin:  auto;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.form .buy-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Add styles for better alignment and spacing */
+.form .buy-form label,
+.buy-form input,
+.buy-form button {
+  box-sizing: border-box;
+}
+
+.form .buy-form label {
+  font-weight: bold;
+}
+
+.form .buy-form input[type="number"] {
+  width: calc(100% - 22px); /* Adjusted width to account for number input's spinner */
+}
+
+.form .buy-form input[type="submit"] {
+  background-color: #4caf50;
+}
+
+.form .buy-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
