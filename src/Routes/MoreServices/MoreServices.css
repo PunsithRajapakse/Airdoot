@@ -1,11 +1,13 @@
-.more-services {
+.m_services .more-services {
     display: grid;
-    margin: 150px;
+    margin: 80px;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    margin-top: 200px;
+    margin-bottom: 150px;
   }
   
-  .service-box {
+  .m_services .service-box {
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 20px;
@@ -13,7 +15,7 @@
   
   
   
-  .card {
+  .m_services .card {
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -22,59 +24,61 @@
     
   }
   
-  .header {
+  .m_services .header {
     font-size: 16px;
     font-weight: bold;
     color: #07794C;
     margin-right: 300px;
   }
   
-  .title {
+  .m_services .title {
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
     margin-right: 300px;
   }
   
-  .rating {
+  .m_services .rating {
     font-size: 14px;
     color: #888;
     margin-right: 300px;
   }
   
-  .price {
+  .m_services .price {
     font-size: 16px;
     font-weight: bold;
     margin-top: 10px;
     margin-right: 300px;
   }
   
-  .description {
+  .m_services .description {
     font-size: 14px;
     margin-top: 10px;
     margin-right: 200px;
   }
   
-  .service-box1{
+  .m_services .service-box1{
     text-align: left;
   }
+
   
-  
-  .add-button {
+  .m_services .add-button {
     background-color: #CBC6C6;
     color: #6a1b9a;
     border: none;
     font-weight: bold;
     border-radius: 4px;
-    padding: 8px 16px;
-    margin-top: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-right: 300px;
+    text-align: center; /* Ensure button text is centered */
+    display: inline-block; /* Ensure button takes up only necessary width */
+    margin-left: 232px;
+    margin-top: -2px;
+    position: absolute;
     text-decoration: none;
   }
   
-  .service-box1 .details-button{
+  .m_services .service-box1 .details-button{
     background-color: white;
     border: 0;
     color:#6a1b9a ;
@@ -82,22 +86,22 @@
   
   }
   
-  .service-box1 .card{
+  .m_services .service-box1 .card{
     border: 1px solid #ccc;
     padding: 50px;
     border-radius: 20px;
   }
   
-  .hrl {
+  .m_services .hrl {
     width: 200px;
     margin-right: 350px;
   }
   
   
-  .service-box1 .add-button{
+  .m_services .service-box1 .add-button{
     margin-left: 350px;
     position: absolute;
-    margin-top: -30px;
+    margin-top: -350px;
     width: 80px;
   }
   
@@ -106,14 +110,14 @@
     background-color: #4a148c;
   } */
   
-  .more-services-button {
+  .m_services .more-services-button {
     text-align: center;
     margin-top: -150px;
     margin-left: 100px;
     padding-bottom: 50px;
   }
   
-  .more-services-btn {
+  .m_services .more-services-btn {
     background-color: #74EE9D;
     color: #ffffff;
     border: none;
@@ -128,7 +132,7 @@
   
   
   
-  .service-box1 .service-image {
+  .m_services .service-box1 .service-image {
     float: right; 
     position: relative; 
     top: -140px; 

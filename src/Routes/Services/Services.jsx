@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
-    <div>
+    <div className="services">
       <div className="more-services">
         <div className="service-box1">
           <div className="card">
