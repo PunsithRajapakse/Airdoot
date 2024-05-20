@@ -1,25 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Home from "./Routes/Home/Home";
-import Services from "./Routes/Services/Services"; // Assuming Services component is in src/Routes/Services/Services.jsx
+import Services from "./Routes/Services/Services";
 import MoreServices from "./Routes/MoreServices/MoreServices";
 import BuyForm from "./Routes/Form/Form";
+import RollingPage from "./Components/Rollingpage/Rollingpage.jsx"; // Check the import path for RollingPage component
 
 function App() {
+  const [showApp, setShowApp] = useState(false);
+
+  const handleRollingPageFinish = () => {
+    setShowApp(true);
+  };
+
   return (
-    <Router>
-      <Header />
-      <Switch>
-        {/* Define routes */}
-        <Route exact path="/" component={Home} /> {/* Home route */}
-        <Route exact path="/services" component={Services} /> {/* Services route */}
-        <Route exact path="/moreservices" component={MoreServices} /> {/* MoreServices route */}
-        <Route exact path='/form' component={BuyForm} /> {/* BuyForm route */}
-      </Switch>
-      <Footer />
-    </Router>
+    <>
+      {showApp ? (
+        <Router>
+          <Header />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/services" component={Services} />
+            <Route exact path="/moreservices" component={MoreServices} />
+            <Route exact path='/form' component={BuyForm} />
+          </Switch>
+          <Footer />
+        </Router>
+      ) : (
+        <RollingPage onFinish={handleRollingPageFinish} />
+      )}
+    </>
   );
 }
 
