@@ -127,13 +127,13 @@ class Header extends Component {
 
           <li className="cart-icon">
             <a className="li" href={`tel:${phoneNumber}`}>
-              <img className="whatsappIcon" src="Assets/Header/cart.png" />
+              <img className="whatsappIcon" src="Assets/Header/Shopping Cart.png" />
             </a>
           </li>
 
           <li className="fav-icon">
             <a className="li" href={`tel:${phoneNumber}`}>
-              <img className="whatsappIcon" src="Assets/Header/Fav.png" />
+              <img className="whatsappIcon" src="Assets/Header/Heart.png" />
             </a>
           </li>
         </ul>

@@ -51,7 +51,7 @@
 /* Optional: Add styles to the links */
 .NavbarItems3 .li {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   font-size: 18px;
   /* margin-bottom: 50px; */
   margin-right: 20px;
@@ -59,7 +59,7 @@
 }
 
 .NavbarItems3 {
-  background-color: #1b2338;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
