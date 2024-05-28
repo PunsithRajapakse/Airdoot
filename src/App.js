@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from "./Components/Footer/Footer";
-import Header from "./Components/Header/Header";
+import Header from "./Components/HeaderNew/Header.jsx";
 import Home from "./Routes/Home/Home";
 import Services from "./Routes/Services/Services";
 import MoreServices from "./Routes/MoreServices/MoreServices";
@@ -19,7 +19,8 @@ function App() {
     <>
       {showApp ? (
         <Router>
-          <Header />
+          {/* <Header /> */}
+          <Header/>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/services" component={Services} />

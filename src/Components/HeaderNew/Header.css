@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f9f6ef;
+  }
+  
+  .header-button {
+    padding: 10px 20px;
+    border: 2px solid #f0b644;
+    border-radius: 20px;
+    color: #003a70;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-button:hover {
+    background-color: #f0b644;
+    color: white;
+  }
+  
+  .header-cart {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .header-cart img {
+    width: 100px;
+    height: 100px;
+  }
+  
