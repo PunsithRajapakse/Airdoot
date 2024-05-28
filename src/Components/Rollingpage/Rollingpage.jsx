@@ -7,7 +7,7 @@ const Rollingpage = ({ onFinish }) => {
     React.useEffect(() => {
         const timer = setTimeout(() => {
             onFinish();
-        }, 7000); // 3000 milliseconds delay, adjust as needed
+        }, 6000); // 3000 milliseconds delay, adjust as needed
         return () => clearTimeout(timer);
     }, [onFinish]);
 
