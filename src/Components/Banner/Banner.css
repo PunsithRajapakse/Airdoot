@@ -5,11 +5,13 @@
   height: 100vh;
   overflow: hidden;
   /* margin-top: 80px; */
+  
+  background-color: #F8F6F1;
 }
 
 /* Darken background and social icons when popup is visible */
 .banner .background-image.darken, .banner .social-icons.darken {
-  filter: brightness(0.2);
+ 
 }
 
 /* Style for the background image container */
@@ -24,24 +26,46 @@
 /* Style for the background image */
 .banner .image-background {
   width: 100%;
-  height: 110%;
-  object-fit: cover;
+  height: 100%;
+  object-fit: contain;
+  margin-top: 100px;
 }
 
 /* Style for the upper right text */
 .banner .upper-right-text {
   position: absolute;
-  top: 70px;
-  right: 40px;
-  font-size: 25px;
-  font-weight: 600;
-  color: white;
+  top: 150px;
+  right: 120px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #025951;
   z-index: 2;
-  background: rgba(0, 0, 0, 0.5); /* Add a background with opacity for better readability */
+  background: rgb(255, 255, 255); /* Add a background with opacity for better readability */
   padding: 10px;
-  border-radius: 25px;
+  border-radius: 15px;
+  width: 300px;
   text-align: center;
   animation: zoomIn 1s ease-out; /* Add zoom-in animation */
+  border: 1px solid #E60000;
+}
+
+
+/* Style for the upper left text */
+.banner .upper-left-text {
+  position: absolute;
+  top: 180px;
+  left: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #025951;
+  z-index: 2;
+  background: rgb(255, 255, 255); /* Add a background with opacity for better readability */
+  padding: 10px;
+  border-radius: 15px;
+  width: 400px;
+  text-align: center;
+  
+  border: 1px solid #E60000;
 }
 
 /* Keyframes for zoom-in animation */
@@ -65,7 +89,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  margin-top: 150px;
+  margin-top: 0px;
   margin-left: -650px;
 }
 
@@ -79,19 +103,21 @@
 /* Style for the search input */
 .banner input[type="text"] {
   width: 350px;
-  height: 40px;
+  height: 30px;
   padding: 10px;
   padding-right: 40px; /* Add space for the button */
   border: none;
-  border-radius: 30px;
+  border-radius: 15px;
   outline: none;
   font-size: 20px;
   text-align: left;
   font-weight: bold;
+  border: 1px solid #E60000;
+  
 }
 
 .banner input[type="text"]::placeholder {
-  color: black; /* Change the placeholder text color to black */
+  color: #025951; /* Change the placeholder text color to black */
 }
 
 /* Style for the "Enter Pincode" button */
@@ -103,16 +129,17 @@
   padding: 10px 20px;
   font-size: 19px;
   font-weight: bold;
-  color: white;
-  background-color: #007bff;
+  color: #025951;
+  background-color: #ffffff;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   cursor: pointer;
+  border: 1px solid #E60000;
 }
 
-.banner .enter-pincode-button:hover {
+/* .banner .enter-pincode-button:hover {
   background-color: #0056b3;
-}
+} */
 
 /* Style for the social icons container */
 .banner .social-icons {
