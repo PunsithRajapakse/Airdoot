@@ -112,11 +112,11 @@ const Banner = () => {
               <button className="close-button" onClick={handleClosePopup}>
                 <FontAwesomeIcon icon={faTimes} />
               </button>
-              <div className="popup-message">
+              <div className="popup-message1">
                 Thank you we are available in your location. Click continue
               </div>
               <button className="popup-button" onClick={handleRequestService}>
-                Book service
+                Book Service
               </button>
             </div>
           </div>

@@ -288,6 +288,14 @@
 }
 
 /* Style for the popup message */
+.popup-container .popup-message1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
 .popup-container .popup-message {
   font-size: 20px;
   margin-bottom: 20px;
@@ -295,7 +303,6 @@
   font-weight: 400;
   color: #000000;
 }
-
 /* Style for the popup button */
 .popup-button {
   padding: 10px 20px;
