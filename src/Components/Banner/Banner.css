@@ -295,3 +295,108 @@
 .popup-button:hover {
   background-color: #f0f0f0;
 }
+
+
+/* contactcss */
+
+.popup-message1 .form-container {
+  margin-top: 120px;
+height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #f9f6ef; */
+    height: 100vh; /* Ensure it covers the full height of the viewport */
+  }
+  
+  .contact-form {
+    background-color: #00396c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-sizing: border-box; /* Ensure padding does not affect width */
+  }
+  
+  .popup-message1 .contact-form .form-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+    border-radius: 5px;
+    border: 1px solid #f7b744;
+    font-size: 16px;
+    color: green; /* Change text color to green */
+    box-sizing: border-box; /* Ensure padding does not affect width */
+  }
+  
+
+  .popup-message1 .contact-form .form-inputpin {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+    border-radius: 5px;
+    border: 1px solid #f7b744;
+    font-size: 16px;
+    color: green; /* Change text color to green */
+    box-sizing: border-box; /* Ensure padding does not affect width */
+  }
+
+
+  .contact-form .form-input::placeholder {
+    color: green; /* Change placeholder color to green */
+  }
+  
+  .form-inputpin {
+    width: 45%;
+    padding: 10px;
+    margin: 10px 180px 0 0px;
+    border-radius: 5px;
+    border: 1px solid #f7b744;
+    font-size: 16px;
+    color: green; /* Change text color to green */
+    box-sizing: border-box; /* Ensure padding does not affect width */
+  }
+  
+  .form-inputpin::placeholder {
+    color: green; /* Change placeholder color to green */
+  }
+  
+  .form-input.half {
+    width: calc(50% - 15px);
+  }
+  
+  .form-input.half::placeholder {
+    color: F3948D; /* Change placeholder color to green */
+  }
+  
+  .form-row {
+    color: green; /* Change text color to green */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-submit {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    background-color: #f7b744;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box; /* Ensure padding does not affect width */
+  }
+  
+  .form-submit:hover {
+    background-color: #d49430;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  
