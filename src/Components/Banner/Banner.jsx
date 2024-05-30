@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Banner.css"; // Correct import path to your CSS file for styling
 import bannerImage from "./img.jpg"; // Correct import path to your image file
 import gifImage from "./snowflake.gif"; // Correct import path to your GIF file
+import triangleImage from "./logo.png"; // Correct import path to your triangle image
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -52,9 +53,10 @@ const Banner = () => {
           Repair Service
         </div>
         <div className="upper-right-text">
-          Best air-conditioning <br />
-          and refrigeration service in <b>India</b>
+          Best <u>air-conditioning</u> <br />
+          and <u>refrigeration</u> service in <b>India</b>
         </div>
+        <img src={triangleImage} alt="Triangle" className="triangle-image" />
       </div>
       <div className="content">
         <div className="search-container">

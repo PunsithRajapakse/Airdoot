@@ -9,6 +9,18 @@
   background-color: #F8F6F1;
 }
 
+
+/* Style for the triangle image */
+.banner .triangle-image {
+  position: absolute;
+  top: calc(100% - 100px); /* Adjust based on desired position */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px; /* Adjust based on desired size */
+  height: auto;
+}
+
+
 /* Darken background and social icons when popup is visible */
 .banner .background-image.darken, .banner .social-icons.darken {
  
@@ -18,6 +30,7 @@
 .banner .background-image {
   position: absolute;
   top: 0;
+  margin-bottom: 60px;
   left: 0;
   width: 100%;
   height: 100%;
