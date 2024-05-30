@@ -3,7 +3,13 @@ import "./Banner.css";
 import bannerImage from "./img.jpg";
 import triangleImage from "./logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faFacebook, faLinkedin, faYoutube, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import {
+  faInstagram,
+  faFacebook,
+  faLinkedin,
+  faYoutube,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 const Banner = () => {
@@ -139,15 +145,43 @@ const Banner = () => {
               <div className="popup-message1">
                 <div className="form-container">
                   <form className="contact-form">
-                    <input type="text" placeholder="Name" className="form-input" />
-                    <input type="text" placeholder="Phone" className="form-input" />
-                    <input type="email" placeholder="Email" className="form-input" />
-                    <input type="text" placeholder="Address" className="form-input" />
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      className="form-input"
+                    />
+                    <input
+                      type="text"
+                      placeholder="Phone"
+                      className="form-input"
+                    />
+                    <input
+                      type="email"
+                      placeholder="Email"
+                      className="form-input"
+                    />
+                    <input
+                      type="text"
+                      placeholder="Address"
+                      className="form-input"
+                    />
                     <div className="form-row">
-                      <input type="text" placeholder="City" className="form-input half" />
-                      <input type="text" placeholder="State" className="form-input half" />
+                      <input
+                        type="text"
+                        placeholder="City"
+                        className="form-input half"
+                      />
+                      <input
+                        type="text"
+                        placeholder="State"
+                        className="form-input half"
+                      />
                     </div>
-                    <input type="text" placeholder="Pincode" className="form-inputpin" />
+                    <input
+                      type="text"
+                      placeholder="Pincode"
+                      className="form-inputpin"
+                    />
                     <select className="form-input">
                       <option>Looking for</option>
                       <option>Servicing</option>
@@ -161,7 +195,10 @@ const Banner = () => {
                       <option>Operations & Maintenance</option>
                       <option>Something else</option>
                     </select>
-                    <textarea placeholder="Message" className="form-input"></textarea>
+                    <textarea
+                      placeholder="Message"
+                      className="form-inputmsg"
+                    ></textarea>
                     <button type="submit" className="form-submit">
                       Submit
                     </button>

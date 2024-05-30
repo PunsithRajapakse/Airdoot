@@ -5,10 +5,9 @@
   height: 100vh;
   overflow: hidden;
   /* margin-top: 80px; */
-  
-  background-color: #F8F6F1;
-}
 
+  background-color: #f8f6f1;
+}
 
 /* Style for the triangle image */
 .banner .triangle-image {
@@ -20,9 +19,9 @@
   height: auto;
 }
 
-
 /* Darken background and social icons when popup is visible */
-.banner .background-image.darken, .banner .social-icons.darken {
+.banner .background-image.darken,
+.banner .social-icons.darken {
   filter: brightness(0.2);
 }
 
@@ -53,15 +52,18 @@
   font-weight: 500;
   color: #025951;
   z-index: 2;
-  background: rgb(255, 255, 255); /* Add a background with opacity for better readability */
+  background: rgb(
+    255,
+    255,
+    255
+  ); /* Add a background with opacity for better readability */
   padding: 10px;
   border-radius: 15px;
   width: 300px;
   text-align: center;
   animation: zoomIn 1s ease-out; /* Add zoom-in animation */
-  border: 1px solid #E60000;
+  border: 1px solid #e60000;
 }
-
 
 /* Style for the upper left text */
 .banner .upper-left-text {
@@ -72,13 +74,17 @@
   font-weight: 500;
   color: #025951;
   z-index: 2;
-  background: rgb(255, 255, 255); /* Add a background with opacity for better readability */
+  background: rgb(
+    255,
+    255,
+    255
+  ); /* Add a background with opacity for better readability */
   padding: 10px;
   border-radius: 15px;
   width: 400px;
   text-align: center;
-  
-  border: 1px solid #E60000;
+
+  border: 1px solid #e60000;
 }
 
 /* Keyframes for zoom-in animation */
@@ -124,9 +130,8 @@
   outline: none;
   font-size: 20px;
   text-align: left;
-  font-weight: bold;
-  border: 1px solid #E60000;
-  
+  /* font-weight: bold; */
+  border: 1px solid #e60000;
 }
 
 .banner input[type="text"]::placeholder {
@@ -147,7 +152,7 @@
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  border: 1px solid #E60000;
+  border: 1px solid #e60000;
 }
 
 /* .banner .enter-pincode-button:hover {
@@ -175,32 +180,32 @@
 
 /* Specific colors for each social icon background */
 .banner .social-icons .instagram {
-  background-color: #E1306C;
+  background-color: #e1306c;
   color: white;
 }
 
 .banner .social-icons .email {
-  background-color: #D44638;
+  background-color: #d44638;
   color: white;
 }
 
 .banner .social-icons .facebook {
-  background-color: #1877F2;
+  background-color: #1877f2;
   color: white;
 }
 
 .banner .social-icons .linkedin {
-  background-color: #0077B5;
+  background-color: #0077b5;
   color: white;
 }
 
 .banner .social-icons .youtube {
-  background-color: #FF0000;
+  background-color: #ff0000;
   color: white;
 }
 
 .banner .social-icons .whatsapp {
-  background-color: #25D366;
+  background-color: #25d366;
   color: white;
 }
 
@@ -240,13 +245,13 @@
 }
 
 .popup-box.success {
-  background-image: url('./1.png'); /* Replace with the correct path to your first image */
+  background-image: url("./1.png"); /* Replace with the correct path to your first image */
   width: 400px;
   border-radius: 30px;
 }
 
 .popup-box.error {
-  background-image: url('./2.png'); /* Replace with the correct path to your second image */
+  background-image: url("./2.png"); /* Replace with the correct path to your second image */
   width: 400px;
   border-radius: 30px;
 }
@@ -271,15 +276,13 @@
   color: rgb(0, 0, 0);
 }
 
-
-
 /* Style for the popup message */
 .popup-container .popup-message {
   font-size: 20px;
   margin-bottom: 20px;
   padding: 0 10px;
   font-weight: 400;
-  color:#000000;
+  color: #000000;
 }
 
 /* Style for the popup button */
@@ -287,7 +290,7 @@
   padding: 10px 20px;
   font-size: 18px;
   font-weight: bold;
-  color: #06345C;
+  color: #06345c;
   background-color: white;
   border: none;
   border-radius: 20px;
@@ -298,107 +301,122 @@
   background-color: #f0f0f0;
 }
 
-
 /* contactcss */
 
 .popup-message1 .form-container {
   margin-top: 120px;
-height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    /* background-color: #f9f6ef; */
-    height: 100vh; /* Ensure it covers the full height of the viewport */
-  }
-  
-  .contact-form {
-    background-color: #00396c;
-    padding: 20px;
-    border-radius: 10px;
-    width: 400px;
-    box-sizing: border-box; /* Ensure padding does not affect width */
-  }
-  
-  .popup-message1 .contact-form .form-input {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin: 10px 10px 0 10px;
-    border-radius: 5px;
-    border: 1px solid #f7b744;
-    font-size: 16px;
-    color: green; /* Change text color to green */
-    box-sizing: border-box; /* Ensure padding does not affect width */
-  }
-  
-
-  .popup-message1 .contact-form .form-inputpin {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin: 10px 10px 0 10px;
-    border-radius: 5px;
-    border: 1px solid #f7b744;
-    font-size: 16px;
-    color: green; /* Change text color to green */
-    box-sizing: border-box; /* Ensure padding does not affect width */
-  }
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* background-color: #f9f6ef; */
+  height: 100vh; /* Ensure it covers the full height of the viewport */
+}
 
 
-  .contact-form .form-input::placeholder {
-    color: green; /* Change placeholder color to green */
-  }
-  
-  .form-inputpin {
-    width: 45%;
-    padding: 10px;
-    margin: 10px 180px 0 0px;
-    border-radius: 5px;
-    border: 1px solid #f7b744;
-    font-size: 16px;
-    color: green; /* Change text color to green */
-    box-sizing: border-box; /* Ensure padding does not affect width */
-  }
-  
-  .form-inputpin::placeholder {
-    color: green; /* Change placeholder color to green */
-  }
-  
-  .form-input.half {
-    width: calc(50% - 15px);
-  }
-  
-  .form-input.half::placeholder {
-    color: F3948D; /* Change placeholder color to green */
-  }
-  
-  .form-row {
-    color: green; /* Change text color to green */
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .form-submit {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin: 10px;
-    background-color: #f7b744;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-    box-sizing: border-box; /* Ensure padding does not affect width */
-  }
-  
-  .form-submit:hover {
-    background-color: #d49430;
-  }
-  
-  .error {
-    color: red;
-    font-size: 12px;
-    margin-left: 10px;
-  }
-  
+
+.contact-form {
+  background-color: #00396c;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom:20px;
+  padding-top: 100px;
+
+  border-radius: 25px;
+  width: 450px;
+  box-sizing: border-box; /* Ensure padding does not affect width */
+}
+
+.popup-message1 .contact-form .form-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 10px 0 10px;
+  border-radius: 5px;
+  border: 1px solid #f7b744;
+  font-size: 16px;
+  color: green; /* Change text color to green */
+  box-sizing: border-box; /* Ensure padding does not affect width */
+}
+
+.popup-message1 .contact-form .form-inputpin {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 10px 0 10px;
+  border-radius: 5px;
+  border: 1px solid #f7b744;
+  font-size: 16px;
+  color: green; /* Change text color to green */
+  box-sizing: border-box; /* Ensure padding does not affect width */
+}
+
+
+.popup-message1 .contact-form .form-inputmsg {
+  width: calc(100% - 20px);
+  padding: 10px;
+  height: 150px;
+  margin: 10px 10px 0 10px;
+  border-radius: 5px;
+  border: 1px solid #f7b744;
+  font-size: 16px;
+  color: green; /* Change text color to green */
+  box-sizing: border-box; /* Ensure padding does not affect width */
+}
+
+.contact-form .form-input::placeholder {
+  color: green; /* Change placeholder color to green */
+}
+
+.form-inputpin {
+  width: 45%;
+  padding: 10px;
+  margin: 10px 180px 0 0px;
+  border-radius: 5px;
+  border: 1px solid #f7b744;
+  font-size: 16px;
+  box-sizing: border-box; /* Ensure padding does not affect width */
+}
+
+.form-inputpin::placeholder {
+  color: green; /* Change placeholder color to green */
+}
+
+.form-input.half {
+  width: calc(50% - 15px);
+}
+
+.form-input.half::placeholder {
+  color: F3948D; /* Change placeholder color to green */
+}
+
+.form-row {
+  color: green; /* Change text color to green */
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-submit {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px;
+  background-color: #f7b744;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box; /* Ensure padding does not affect width */
+}
+
+.form-submit:hover {
+  background-color: #d49430;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-left: 10px;
+}
