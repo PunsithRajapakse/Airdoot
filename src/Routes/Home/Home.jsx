@@ -9,6 +9,7 @@ import Products from "../../Components/Products/Products";
 import Applications from"../../Components/Applications/Applications";
 import Van from "../../Components/Van/Van";
 import NewApp from "../../Components/NewApp/NewApp"
+import ContactForm from "../../Components/ContactForm/ContactForm";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Applications/>
       <Brands />
       <Clients />
+      <ContactForm/>
       {/* <Van />  */}
     </div>
   );

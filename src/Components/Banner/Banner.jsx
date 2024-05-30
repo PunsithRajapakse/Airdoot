@@ -110,7 +110,7 @@ const Banner = () => {
               <div className="popup-message">
                 Thank you we are available in your location. Click continue
               </div>
-              <button className="popup-button">Continue</button>
+              <button className="popup-button">Book Service</button>
             </div>
           </div>
           <div className="popup-box error">

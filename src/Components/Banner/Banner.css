@@ -23,7 +23,7 @@
 
 /* Darken background and social icons when popup is visible */
 .banner .background-image.darken, .banner .social-icons.darken {
- 
+  filter: brightness(0.2);
 }
 
 /* Style for the background image container */
