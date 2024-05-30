@@ -28,6 +28,7 @@ const Banner = () => {
 
   const [showPopup, setShowPopup] = useState(false);
   const [showFormPopup, setShowFormPopup] = useState(false);
+  const [showThankYouMessage, setShowThankYouMessage] = useState(false);
 
   const handleButtonClick = () => {
     setShowPopup(true);
@@ -38,16 +39,26 @@ const Banner = () => {
   };
 
   const handleRequestService = () => {
-    setShowFormPopup(true);
     setShowPopup(false);
+    setShowFormPopup(true);
   };
 
   const handleCloseFormPopup = () => {
     setShowFormPopup(false);
   };
 
+  const handleSubmitForm = (event) => {
+    event.preventDefault();
+    setShowFormPopup(false);
+    setShowThankYouMessage(true);
+  };
+
+  const handleCloseThankYouMessage = () => {
+    setShowThankYouMessage(false);
+  };
+
   return (
-    <div className={`banner ${showFormPopup ? "blur-background" : ""}`}>
+    <div className={`banner ${showFormPopup || showThankYouMessage ? "blur-background" : ""}`}>
       <div className={`background-image ${showPopup ? "darken" : ""}`}>
         <img src={bannerImage} alt="Banner" className="image-background" />
         <div className="upper-left-text">
@@ -102,7 +113,7 @@ const Banner = () => {
       </div>
 
       {/* Dark overlay when popup is shown */}
-      {showPopup && <div className="dark-overlay" />}
+      {(showPopup || showFormPopup || showThankYouMessage) && <div className="dark-overlay" />}
 
       {/* Popup messages */}
       {showPopup && (
@@ -112,7 +123,7 @@ const Banner = () => {
               <button className="close-button" onClick={handleClosePopup}>
                 <FontAwesomeIcon icon={faTimes} />
               </button>
-              <div className="popup-message1">
+              <div className="popup-message2">
                 Thank you we are available in your location. Click continue
               </div>
               <button className="popup-button" onClick={handleRequestService}>
@@ -140,53 +151,60 @@ const Banner = () => {
       {/* Form popup */}
       {showFormPopup && (
         <div className="popup-container">
-          <div className="popup-box">
+          <div className="popup-box1">
             <div className="popup-content">
-              <button className="close-button" onClick={handleCloseFormPopup}>
+              {/* <button className="close-button" onClick={handleCloseFormPopup}>
                 <FontAwesomeIcon icon={faTimes} />
-              </button>
+              </button> */}
               <div className="popup-message1">
                 <div className="form-container">
-                  <form className="contact-form">
+                  <form className="contact-form" onSubmit={handleSubmitForm}>
                     <input
                       type="text"
                       placeholder="Name"
                       className="form-input"
+                   
                     />
                     <input
                       type="text"
                       placeholder="Phone"
                       className="form-input"
+                  
                     />
                     <input
                       type="email"
                       placeholder="Email"
                       className="form-inputem"
+                     
                     />
                     <input
                       type="text"
                       placeholder="Address"
                       className="form-input"
+                    
                     />
                     <div className="form-row">
                       <input
                         type="text"
                         placeholder="City"
                         className="form-input half"
+                       
                       />
                       <input
                         type="text"
                         placeholder="State"
                         className="form-input half"
+                       
                       />
                     </div>
                     <input
                       type="text"
                       placeholder="Pincode"
                       className="form-inputpin"
+                      
                     />
                     <select className="form-input">
-                      <option>Looking for</option>
+                      <option value="">Looking for</option>
                       <option>Servicing</option>
                       <option>Repair</option>
                       <option>Annual Maintenance Contract</option>
@@ -199,14 +217,31 @@ const Banner = () => {
                       <option>Something else</option>
                     </select>
                     <textarea
-                      placeholder="Message "
+                      placeholder="Message"
                       className="form-inputmsg"
+                    
                     ></textarea>
                     <button type="submit" className="form-submit">
                       Submit
                     </button>
                   </form>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Thank You Message */}
+      {showThankYouMessage && (
+        <div className="popup-container">
+          <div className="popup-box11">
+            <div className="popup-content">
+              <button className="close-button" onClick={handleCloseThankYouMessage}>
+                <FontAwesomeIcon icon={faTimes} />
+              </button>
+              <div className="popup-message11">
+                Thank you. Our representative will contact you within an hour!
               </div>
             </div>
           </div>
