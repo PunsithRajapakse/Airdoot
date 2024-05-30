@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      {/* {showApp ? ( */}
+      {showApp ? (
         <Router>
           {/* <Header /> */}
           <Header/>
@@ -29,9 +29,9 @@ function App() {
           </Switch>
           <Footer />
         </Router>
-      {/* ) : (
+      ) : (
         <RollingPage onFinish={handleRollingPageFinish} />
-      )} */}
+      )}
     </>
   );
 }

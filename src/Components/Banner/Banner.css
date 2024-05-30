@@ -22,7 +22,18 @@
 /* Darken background and social icons when popup is visible */
 .banner .background-image.darken,
 .banner .social-icons.darken {
-  filter: brightness(0.2);
+  filter: brightness(0.5);
+}
+
+
+.dark-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 4;
 }
 
 /* Style for the background image container */
@@ -314,14 +325,12 @@
   height: 100vh; /* Ensure it covers the full height of the viewport */
 }
 
-
-
 .contact-form {
   background-color: #00396c;
   margin-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom:20px;
+  padding-bottom: 20px;
   padding-top: 100px;
 
   border-radius: 25px;
@@ -350,7 +359,6 @@
   color: green; /* Change text color to green */
   box-sizing: border-box; /* Ensure padding does not affect width */
 }
-
 
 .popup-message1 .contact-form .form-inputmsg {
   width: calc(100% - 20px);

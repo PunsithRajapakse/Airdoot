@@ -101,6 +101,9 @@ const Banner = () => {
         />
       </div>
 
+      {/* Dark overlay when popup is shown */}
+      {showPopup && <div className="dark-overlay" />}
+
       {/* Popup messages */}
       {showPopup && (
         <div className="popup-container">
