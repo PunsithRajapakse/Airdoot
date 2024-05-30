@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div className="home">
       <Banner />
-      <NewApp/>
+      {/* <NewApp/>
       <Promotion/>
       <Choose/>
       <WhatAllWeDo/>
@@ -23,7 +23,7 @@ const Home = () => {
       <Applications/>
       <Brands />
       <Clients />
-      <ContactForm/>
+      <ContactForm/> */}
       {/* <Van />  */}
     </div>
   );

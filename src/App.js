@@ -27,7 +27,7 @@ function App() {
             <Route exact path="/moreservices" component={MoreServices} />
             <Route exact path='/form' component={BuyForm} />
           </Switch>
-          <Footer />
+          {/* <Footer /> */}
         </Router>
       ) : (
         <RollingPage onFinish={handleRollingPageFinish} />

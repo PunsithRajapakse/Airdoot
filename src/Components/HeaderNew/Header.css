@@ -27,7 +27,7 @@
   background-color: #f0b644;
   color: white;
 }
-
+/* 
 .header-cart {
   background-color: white;
   display: flex;
@@ -35,9 +35,9 @@
   border-radius: 15px;
   height: 70px;
   width: 78px;
-}
+} */
 
 .header-cart img {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 70px;
 }

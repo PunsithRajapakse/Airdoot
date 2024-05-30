@@ -161,7 +161,7 @@ const Banner = () => {
                     <input
                       type="email"
                       placeholder="Email"
-                      className="form-input"
+                      className="form-inputem"
                     />
                     <input
                       type="text"
@@ -199,7 +199,7 @@ const Banner = () => {
                       <option>Something else</option>
                     </select>
                     <textarea
-                      placeholder="Message"
+                      placeholder="Message "
                       className="form-inputmsg"
                     ></textarea>
                     <button type="submit" className="form-submit">

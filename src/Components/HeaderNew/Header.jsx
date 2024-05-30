@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import cart from "./carticon.png"
+import cart from "./3.png"
 
 const Header = () => {
   return (
