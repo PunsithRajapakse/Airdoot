@@ -41,7 +41,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="banner">
+    <div className={`banner ${showFormPopup ? "blur-background" : ""}`}>
       <div className={`background-image ${showPopup ? "darken" : ""}`}>
         <img src={bannerImage} alt="Banner" className="image-background" />
         <div className="upper-left-text">
@@ -151,15 +151,15 @@ const Banner = () => {
                     <select className="form-input">
                       <option>Looking for</option>
                       <option>Servicing</option>
-                      <option>⁠Repair</option>
-                      <option>⁠Annual Maintenance Contract</option>
-                      <option>⁠Inspection</option>
-                      <option>⁠Installation</option>
+                      <option>Repair</option>
+                      <option>Annual Maintenance Contract</option>
+                      <option>Inspection</option>
+                      <option>Installation</option>
                       <option>Spare Parts</option>
                       <option>Upgrade/Retrofit</option>
-                      <option>⁠Design & Estimation</option>
-                      <option> ⁠Operations & Maintenance</option>
-                      <option>⁠Something else</option>
+                      <option>Design & Estimation</option>
+                      <option>Operations & Maintenance</option>
+                      <option>Something else</option>
                     </select>
                     <textarea placeholder="Message" className="form-input"></textarea>
                     <button type="submit" className="form-submit">
