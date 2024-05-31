@@ -160,7 +160,7 @@
   top: 50%;
   right: 10px;
   transform: translateY(-50%);
-  padding: 10px 20px;
+  padding: 5px 20px;
   font-size: 19px;
   font-weight: bold;
   color: #025951;
@@ -189,7 +189,7 @@
 
 /* Style for each social icon */
 .banner .social-icons .social-icon {
-  font-size: 25px; /* Adjust the size as needed */
+  font-size: 20px; /* Adjust the size as needed */
   cursor: pointer;
   padding: 10px; /* Add padding for background */
   border-radius: 50%; /* Make the background circular */
@@ -292,6 +292,7 @@
   cursor: pointer;
   color: rgb(0, 0, 0);
 }
+
 
 /* Style for the popup message */
 .popup-container .popup-message2 {
@@ -481,25 +482,25 @@
 }
 
 .popup-box11 {
-  background-color: #f8f6f1;
+  background-color: #00396C;
   padding: 40px;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  max-width: 300px; /* Set a maximum width for the popup box */
+  max-width: 400px; /* Set a maximum width for the popup box */
   width: 90%; /* Make the popup responsive */
   position: relative; /* Added to position the close button relative to the popup box */
 }
 
 /* Popup message styling for the Thank You Message */
 .popup-message11 {
-  font-size: 18px;
-  color: #003a70;
+  font-size:20px;
+  color: white;
   font-family: "Poppins", sans-serif;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
   font-weight: 400;
 }
 .popup-box11 .close-button {
@@ -510,5 +511,5 @@
   border: none;
   font-size: 20px;
   cursor: pointer;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }

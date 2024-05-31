@@ -43,6 +43,11 @@ const Banner = () => {
     setShowFormPopup(true);
   };
 
+  const handleRequestService1 = () => {
+    
+  };
+
+
   const handleCloseFormPopup = () => {
     setShowFormPopup(false);
   };
@@ -124,9 +129,9 @@ const Banner = () => {
                 <FontAwesomeIcon icon={faTimes} />
               </button>
               <div className="popup-message2">
-                Thank you we are available in your location. Click continue
+                Thank you we are available in your location.
               </div>
-              <button className="popup-button" onClick={handleRequestService}>
+              <button className="popup-button" onClick={handleRequestService1}>
                 Book Service
               </button>
             </div>
