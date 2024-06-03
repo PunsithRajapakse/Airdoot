@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Agrandir:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+
+.A_container {
+  text-align: center;
+  background-color: #153868;
+  padding: 50px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.A_container h1 {
+  font-family: "Agrandir", sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.A_container p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.A_container .assistance-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-left: 25px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.A_container .assistance-options img {
+  margin-top: -20px;
+  height: 100px;
+  width: 100px;
+  margin-bottom: -30px;
+}
+
+.A_container .option {
+  background-color: white;
+  border-radius: 150px 150px 0px 0px;
+  padding: 20px;
+  width: 160px;
+  height: 210px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.A_container .option h2 {
+  font-family: "Agrandir", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.A_container .option p {
+  font-family: "Quicksand", sans-serif;
+
+  font-size: 1em;
+}
+
+.A_container .repair {
+  background-color: #ffc610;
+  color: #f8f6f1;
+}
+
+.A_container .repair p {
+  color: #203162;
+}
+
+.A_container .service {
+  background-color: #025951;
+}
+
+.A_container .gas-charging {
+  background-color: #1e191b;
+}
+
+.A_container .installation {
+  background-color: #f3948d;
+
+}
+.A_container .installation p {
+  color: #203162;
+  font-weight: 800;
+}
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .A_container {
+    padding: 20px;
+  }
+
+  .A_container h1 {
+    font-size: 2em;
+  }
+
+  .A_container p {
+    font-size: 1em;
+  }
+
+  .A_container .assistance-options {
+    gap: 10px;
+  }
+
+  .A_container .option {
+    width: 120px;
+    height: 180px;
+    margin-right: 20px;
+  }
+
+  .A_container .option h2 {
+    font-size: 1.2em;
+  }
+
+  .A_container .option p {
+    font-size: 0.9em;
+  }
+
+  .A_container .assistance-options img {
+    height: 80px;
+    width: 80px;
+    margin-top: -15px;
+    margin-bottom: -20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .A_container .container {
+    padding: 10px;
+  }
+
+  .A_container h1 {
+    font-size: 1.8em;
+  }
+
+  .A_container p {
+    font-size: 0.9em;
+  }
+
+  .A_container .assistance-options {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .A_container .option {
+    width: 100px;
+    height: 160px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .A_container .option h2 {
+    font-size: 1em;
+  }
+
+  .A_container .option p {
+    font-size: 0.8em;
+  }
+
+  .A_container .assistance-options img {
+    height: 70px;
+    width: 70px;
+    margin-top: -10px;
+    margin-bottom: -15px;
+  }
+}

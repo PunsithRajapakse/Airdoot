@@ -1,0 +1,152 @@
+.footer {
+  position: relative;
+  background-color: black; /* Set the background color to black */
+  padding: 20px 20px;
+  height: 70vh; /* Adjust if necessary */
+  color: #FFC610;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1E191B;
+  z-index: 1; /* Ensure this layer is at the bottom */
+  height: 580px;
+}
+
+.footer-logo {
+  z-index: 2; /* Ensure the logo is above the background */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -50px; /* Move the logo up */
+}
+
+.footer-logo img {
+  max-width: 100%; /* Ensure the logo image fits within the footer */
+  height: auto;
+}
+
+.footer-overlay {
+  z-index: 3; /* Ensure the overlay with text is on top */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+  width: 100%;
+  max-width: 1200px; /* Adjust as needed */
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 150px; /* Move the left boxes down */
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px; /* Move the right box down */
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  background-color: #025951;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 20px;
+  border-radius: 35px;
+  margin: 10px 0;
+  text-align: left;
+  color: #FFC610;
+  width: 350px; /* Ensure all boxes are the same length */
+  height: 30px; /* Adjusted height */
+  border: 1px solid #FFC610; /* Add yellow border */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.footer-socials {
+  margin-top: 20px;
+}
+
+.socials-box {
+  background-color: #025951;
+  padding: 10px 20px;
+  border-radius: 35px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 350px; /* Ensure all boxes are the same length */
+  height: 30px; /* Adjusted height */
+  border: 1px solid #FFC610; /* Add yellow border */
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-socials p {
+  margin: 0;
+  padding-right: 83px;
+}
+
+.socials-box .social-icons {
+ margin-top: 0px;
+ margin-left: 50px;
+  
+ 
+}
+
+.footer-socials a {
+  color: #025951; /* Green color */
+  background-color: #FFC610; /* Yellow background */
+  font-family: "Poppins", sans-serif;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 0px 5px;
+  font-size: 20px;
+  padding: 5px;
+  display: inline-flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.footer-hours p {
+  background-color: #025951;
+  padding: 10px 0px;
+  padding-right: 50px;
+  border-radius: 20px;
+  text-align: left;
+  margin: 10px 0;
+  color: #FFC610;
+  width: 300px; /* Ensure same width as other boxes */
+  height: 150px; /* Increased height for the right side box */
+  font-family: "Poppins", sans-serif;
+ 
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.footer-right{
+  margin-right: 250px;
+  margin-top: 350px;
+ 
+}

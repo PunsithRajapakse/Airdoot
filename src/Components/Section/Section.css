@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-color: #025951; /* Green background color */
+}
+
+.icon {
+  width: 300px; /* Adjust the size as needed */
+  margin-bottom: 0px;
+}
+
+.text {
+  font-family: "Arial", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  color: #FEFEFE;
+  margin-top: -180px;
+  line-height: 55px;
+}

@@ -1,20 +1,26 @@
-body {
-  background-color: #1b2338;
-}
+@import url("https://fonts.googleapis.com/css2?family=Agrandir:wght@400&display=swap");
+
+
 .clients{
   margin-top: 100px;
   margin-bottom: 50px;
+  background-color: #00396C;
+  height: 300px;
 }
 
 
 .clients .heading{
-  color: #ffe456;
-  text-align: center;
-  font-size: 40px;
+  font-family: "Agrandir", sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  padding-top: 50px;
+  color: #FEC107;
 
 }
 .clients .our-clients-container {
   margin-top: 80px;
+  padding-top: 40px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(1, 1fr);

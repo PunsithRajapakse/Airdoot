@@ -4,7 +4,7 @@ import './NewApp.css'; // Import your CSS file for styling
 
 const NewApp= () => {
     return (
-      <div className="app">
+      <div className="newapp">
         <h1>Applications</h1>
         <div className="container">
           <div className="box boxorange1">

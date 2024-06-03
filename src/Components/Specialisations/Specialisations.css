@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Agrandir:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+
+
+.specialisations-container {
+  text-align: center;
+  background-color: #f7b744;
+  padding: 50px;
+  color: #FEFEFE;
+  font-family: Agrandir, sans-serif;
+  position: relative;
+}
+
+.specialisations-container h1 {
+  font-family: "Agrandir", sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.specialisations-container p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.specialisations-options {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.specialisation {
+  text-align: center;
+  width: 150px;
+  padding: 20px;
+}
+
+.specialisation img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.specialisation p {
+  background-color: #025951;
+  color: #fefefe;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.extra-image-container {
+  position: absolute;
+  bottom: 0;
+  top: 380px;
+  left: -20px;
+}
+
+.extra-image-container img {
+  width: auto;
+  height: auto;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .specialisations-container {
+    padding: 20px;
+  }
+
+  .specialisations-container h1 {
+    font-size: 2em;
+  }
+
+  .specialisations-container p {
+    font-size: 1em;
+  }
+
+  .specialisation {
+    width: 100px;
+    padding: 10px;
+  }
+
+  .specialisation img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .specialisation p {
+    font-size: 0.8em;
+  }
+
+  .extra-image-container img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .specialisations-options {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .specialisation {
+    width: 80px;
+    padding: 10px;
+  }
+
+  .specialisation img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .specialisation p {
+    font-size: 0.7em;
+  }
+
+  .extra-image-container img {
+    width: 60px;
+    height: 60px;
+  }
+}

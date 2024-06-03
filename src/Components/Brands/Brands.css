@@ -1,20 +1,32 @@
-.brands .heading{
-  margin-top: 100px;
-  font-size: 40px;
-  text-align: center;
-  margin-bottom: 40px;
-  color: #ffe456;
+@import url("https://fonts.googleapis.com/css2?family=Agrandir:wght@400&display=swap");
+
+.brands {
+  background-color: #F7B744;
 }
 
 
+.brands .heading{
+  padding-top: 80px;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #FEFEFE;
+  font-family: "Agrandir", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+
+
 .our-brands-container {
-  margin-top: 80px;
+  margin-top: 0px;
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
   grid-template-rows: repeat(4, 1fr); /* 4 rows */
   grid-gap: 80px; /* Increased spacing between logos */
   max-width: 800px; /* Adjust container width as needed */
   margin: 0 auto; /* Center the container horizontally */
+ padding-bottom: 80px;
 }
 
 .brand-logo {
@@ -23,6 +35,3 @@
   object-fit: contain; /* Ensure logos maintain aspect ratio */
 }
 
-.brands h1 {
-  text-align: center;
-}
