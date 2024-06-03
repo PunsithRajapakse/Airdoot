@@ -176,7 +176,6 @@ hr {
   background-color: #14482b;
 }
 
-/* Styles for centering the last row when showMore is true */
 .show-more-grid {
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   justify-content: center;
