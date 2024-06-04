@@ -25,6 +25,7 @@ const Home = () => {
       <Section />
       <AssistanceTypes />
      <Specialisations />
+     <NewApp/>
       <Plan />
      <Clients />
       <Brands />
