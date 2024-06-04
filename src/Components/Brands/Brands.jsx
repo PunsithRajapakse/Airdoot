@@ -6,18 +6,18 @@ import "./Brands.css"; // Import CSS file for styling (create this file if neces
 const Brands = () => {
   // Array of brand logo image URLs
   const brandLogos = [
-    process.env.PUBLIC_URL + "Assets/Brands/blue-star 1.png",
-    process.env.PUBLIC_URL + "Assets/Brands/carrier 1.png",
-    process.env.PUBLIC_URL + "Assets/Brands/daikin 1.png",
-    process.env.PUBLIC_URL + "Assets/Brands/general 1.png",
-    process.env.PUBLIC_URL + "Assets/Brands/hitachi 1 (1).png",
-    process.env.PUBLIC_URL + "Assets/Brands/lg 1.png",
-    process.env.PUBLIC_URL + "Assets/Brands/mcquay 1.png",
-    process.env.PUBLIC_URL + "Assets/Brands/hitachi 1 (1).png",
-    process.env.PUBLIC_URL + "Assets/Brands/samsung 1.png",
-    process.env.PUBLIC_URL + "Assets/Brands/toshiba 1.png",
+    process.env.PUBLIC_URL + "Assets/Brands/blue-star.png",
+    process.env.PUBLIC_URL + "Assets/Brands/carrier.png",
+    process.env.PUBLIC_URL + "Assets/Brands/toshiba.png",
+    process.env.PUBLIC_URL + "Assets/Brands/general.png",
+    process.env.PUBLIC_URL + "Assets/Brands/hitachi.png",
+    process.env.PUBLIC_URL + "Assets/Brands/lg.png",
+    process.env.PUBLIC_URL + "Assets/Brands/mcquay.png",
+    process.env.PUBLIC_URL + "Assets/Brands/hitachi.png",
+    process.env.PUBLIC_URL + "Assets/Brands/samsung.png",
+    process.env.PUBLIC_URL + "Assets/Brands/toshiba.png",
     process.env.PUBLIC_URL + "Assets/Brands/trane.png",
-    process.env.PUBLIC_URL + "Assets/Brands/voltas 1.png",
+    process.env.PUBLIC_URL + "Assets/Brands/voltas.png",
     
 
   ];

@@ -15,8 +15,8 @@ const NewFooter = () => {
             <div className="contact-item">
               123 Anywhere St. Any City, ST 12345
             </div>
-            <div className="contact-item">(123) 456-7890</div>
-            <div className="contact-item">hello@reallygreatsite.com</div>
+            <div className="contact-item">+91 897 674 1999</div>
+            <div className="contact-item">customercare@airdoot.com</div>
             <div className="footer-socials">
               <div className="socials-box">
                 <p>SOCIALS</p>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./Banner.css";
 import bannerImage from "./img.jpg";
 import triangleImage from "./logo.png";
@@ -11,8 +11,12 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { useHistory } from "react-router-dom";
 
-const Banner = () => {
+
+const Banner = ({ scrollToACSelection }) => {
+  const history = useHistory();
+
   const socialLinks = {
     instagram: "https://www.instagram.com/",
     facebook: "https://www.facebook.com/",
@@ -44,9 +48,10 @@ const Banner = () => {
   };
 
   const handleRequestService1 = () => {
-    
+    setShowPopup(false);
+    setShowFormPopup(false);
+    scrollToACSelection(); // Scroll to ACSelection section
   };
-
 
   const handleCloseFormPopup = () => {
     setShowFormPopup(false);
@@ -117,10 +122,8 @@ const Banner = () => {
         />
       </div>
 
-      {/* Dark overlay when popup is shown */}
       {(showPopup || showFormPopup || showThankYouMessage) && <div className="dark-overlay" />}
 
-      {/* Popup messages */}
       {showPopup && (
         <div className="popup-container">
           <div className="popup-box success">
@@ -153,14 +156,10 @@ const Banner = () => {
         </div>
       )}
 
-      {/* Form popup */}
       {showFormPopup && (
         <div className="popup-container">
           <div className="popup-box1">
             <div className="popup-content">
-              {/* <button className="close-button" onClick={handleCloseFormPopup}>
-                <FontAwesomeIcon icon={faTimes} />
-              </button> */}
               <div className="popup-message1">
                 <div className="form-container">
                   <form className="contact-form" onSubmit={handleSubmitForm}>
@@ -168,45 +167,38 @@ const Banner = () => {
                       type="text"
                       placeholder="Name"
                       className="form-input"
-                   
                     />
                     <input
                       type="text"
                       placeholder="Phone"
                       className="form-input"
-                  
                     />
                     <input
                       type="email"
                       placeholder="Email"
                       className="form-inputem"
-                     
                     />
                     <input
                       type="text"
                       placeholder="Address"
                       className="form-input"
-                    
                     />
                     <div className="form-row">
                       <input
                         type="text"
                         placeholder="City"
                         className="form-input half"
-                       
                       />
                       <input
                         type="text"
                         placeholder="State"
                         className="form-input half"
-                       
                       />
                     </div>
                     <input
                       type="text"
                       placeholder="Pincode"
                       className="form-inputpin"
-                      
                     />
                     <select className="form-input">
                       <option value="">Looking for</option>
@@ -224,7 +216,6 @@ const Banner = () => {
                     <textarea
                       placeholder="Message"
                       className="form-inputmsg"
-                    
                     ></textarea>
                     <button type="submit" className="form-submit">
                       Submit
@@ -237,7 +228,6 @@ const Banner = () => {
         </div>
       )}
 
-      {/* Thank You Message */}
       {showThankYouMessage && (
         <div className="popup-container">
           <div className="popup-box11">

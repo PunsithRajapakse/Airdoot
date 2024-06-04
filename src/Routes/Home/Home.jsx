@@ -20,13 +20,13 @@ import Specialisations from "../../Components/Specialisations/Specialisations";
 const Home = () => {
   return (
     <div className="home">
-      <Banner />
-      <ACSelection />
+      {/* <Banner />
+      <ACSelection /> */}
       <Section />
       <AssistanceTypes />
      <Specialisations />
       <Plan />
-      <Clients />
+     <Clients />
       <Brands />
       <NewFooter />
       

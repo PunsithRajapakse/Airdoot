@@ -8,16 +8,16 @@ const Plan = () => {
   return (
     <div className="planContainer">
       <header1>
-        <p>We can help you choose the same</p>
+        <p1>We can <b>help </b>you<br/> choose the same</p1>
         <div>
         <h1>choose a plan</h1>
-        <h3>Pick one that suits your budget, assets, space and application</h3>
+        <h3>Pick one that suits your <br/>budget, assets, space and <br/> application</h3>
         </div>
-        <p>Pick one of our plans and <span className="save-money">save money</span></p>
+        <p2>Pick one of our plans and <span className="save-money">save <br/> money</span></p2>
       </header1>
       <div className="plans">
         <div className="plan-box1">
-          <h2>Annual <br/>Maintenance<br/> Contract</h2>
+          <h2>Repair  <br/>Maintenance<br/> Contract</h2>
           <p>annual maintenance contract</p>
           <button>Show More</button>
         </div>
@@ -49,9 +49,15 @@ const Plan = () => {
       </div>
       
         <div className="pipes">
-          <div className="leftpipe"><img src={LeftPipe} alt="leftpipe" /></div>
-          <div className="logo"><img src={Logo} alt="logo" /></div>
-          <div className="rightpipe"><img src={RightPipe} alt="rightpipe" /></div>
+          <div className="leftpipe">
+            <img src={LeftPipe} alt="leftpipe" />
+          </div>
+          <div className="logo">
+            <img src={Logo} alt="logo" />
+          </div>
+          <div className="rightpipe">
+            <img src={RightPipe} alt="rightpipe" />
+          </div>
         </div>
       
     </div>
