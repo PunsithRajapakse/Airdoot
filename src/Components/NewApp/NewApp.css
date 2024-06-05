@@ -17,13 +17,16 @@
 }
 
 .newapp .container {
+  max-width: 75%;
+
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 20px;
-  max-width: 1300px;
+  gap: 10px;
+  /* max-width: 1300px; */
   margin: 0 auto;
-  background-color: #000000;
+  padding-bottom: 230px;
+  background-color: #00000000;
 }
 
 /* Common box styling */
@@ -89,7 +92,9 @@
 }
 
 .newapp .boxblue7 {
-  background-color: #f2a444;
+  background-color: #ffffff;
+
+  background-color: #b58447;
 }
 
 .newapp .boxorange8 {
@@ -111,41 +116,63 @@
 
 /* Grid positions */
 .newapp .boxorange1 {
+  max-width: 277px;
+  height: 212px;
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
 }
 
 .newapp .boxblue2 {
+  max-width: 374px;
+  height: 212px;
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
 }
 
 .newapp .boxorange3 {
+  max-width: 512px;
+  height: 217px;
   grid-column: 3 / span 2;
   grid-row: 1 / span 1;
 }
 
 .newapp .boxblue4 {
+  max-width: 244px;
+  height: 444px;
   grid-column: 3 / span 1;
   grid-row: 2 / span 2;
 }
 
 .newapp .boxblue5 {
+  max-width: 277px;
+  height: 447px;
   grid-column: 1 / span 1;
   grid-row: 2 / span 2;
+  background-color: #f2a444;
+
 }
 
 .newapp .boxorange6 {
+  max-width: 374px;
+  height: 217px;
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
+  
 }
 
 .newapp .boxblue7 {
+  max-width: 374px;
+  height: 212px;
+  background-color: #ffffff;
+
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
 }
 
 .newapp .boxorange8 {
+  max-width: 247px;
+  height: 444px;
+  margin-left: -15px;
   grid-column: 4 / span 1;
   grid-row: 2 / span2;
 }
