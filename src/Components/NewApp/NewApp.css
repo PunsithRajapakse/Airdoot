@@ -26,7 +26,7 @@
 
 .newapp .container {
   max-width: 75%;
-margin-top: 100px;
+  margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -35,7 +35,7 @@ margin-top: 100px;
   /* max-width: 1300px; */
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 230px;
+  padding-bottom: 430px;
   background-color: #00000000;
 }
 
@@ -204,10 +204,33 @@ margin-top: 100px;
 
 .newapp .box img.Residential-image {
   position: relative;
-top: 20px;
+  top: 20px;
   left: 0px;
   bottom: 0px;
   width: auto;
   height: auto;
 }
 
+.newapp .box img.Kitchen-image {
+  position: relative;
+  top: 20px;
+  left: 50px;
+  bottom: 0px;
+  width: auto;
+  height: auto;
+}
+
+
+.newapp .box img.FanMan-image {
+  position: absolute;
+  z-index: 1;
+  top: 178px;
+  left: -40px;
+  bottom: 0px;
+  width: auto;
+  height: auto;
+}
+
+.newapp .Supermarket{
+  padding-bottom: 150px;
+}

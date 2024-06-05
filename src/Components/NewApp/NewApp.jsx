@@ -5,6 +5,7 @@ import hospitalityImage from "./Hospitality.png"; // Import the image for hospit
 import dataCentersImage from "./Datacenters.png"; // Import the image for data centers section
 import Residential from "./nnn.png"; // Import the image for data centers section
 import Kitchen from "./Screenshot_2024-06-05_135237-removebg-preview.png"; // Import the image for data centers section
+import FanMan from "./fanman.png"; // Import the image for data centers section
 
 
 const NewApp = () => {
@@ -36,7 +37,8 @@ const NewApp = () => {
           <img src={arrowIcon} alt="Arrow" className="arrow" />
         </div>
         <div className="box boxtall boxblue4">
-          <span>
+          <img src={FanMan} alt="Hospitality" className="FanMan-image" />
+          <span className="Supermarket">
             Supermarket & <br />
             Hypermarket
           </span>
@@ -62,11 +64,7 @@ const NewApp = () => {
         </div>
         <div className="box boxtall boxorange8">
           <span>Commercial Kitchen</span>
-          <img
-            src={Kitchen}
-            alt="Hospitality"
-            className="Residential-image"
-          />
+          <img src={Kitchen} alt="Hospitality" className="Kitchen-image" />
           <img src={arrowIcon} alt="Arrow" className="arrow" />
         </div>
       </div>
