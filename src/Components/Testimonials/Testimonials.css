@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Agrandir:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+
+.testimonials-section {
+  position: relative; /* Ensure that the corner image is positioned relative to this container */
+  text-align: center;
+  padding: 40px;
+  background-color: #025951;
+}
+
+.testimonials-section h2 {
+  font-family: "Agrandir", sans-serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  margin-top: 20px;
+  color: #f8f6f1;
+}
+
+.testimonials-section p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #f8f6f1;
+}
+
+.awards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 30px;
+  justify-content: center; /* Center-align the items */
+  margin-bottom: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.awards-container.center-row {
+  grid-template-columns: repeat(3, 1fr); /* 3 columns for the second row */
+  justify-content: center; /* Center-align the items */
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.award {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%; /* Ensure all awards have the same width */
+  box-sizing: border-box;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s; */
+}
+
+/* .award:hover {
+      transform: scale(1.05);
+    } */
+
+.stars {
+  width: 180px; /* Adjust based on your image size */
+}
+
+.award h3 {
+  font-family: "Poppins", sans-serif;
+  color: #F7B744;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.award p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.corner-image {
+  position: absolute;
+  bottom: 40px; /* Adjust as necessary */
+  right: 40px; /* Adjust as necessary */
+  width: 100px; /* Adjust based on your image size */
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 1200px) {
+  .awards-container {
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* 3 columns for screens less than 1200px */
+  }
+
+  .awards-container.center-row {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* 2 columns for the second row on smaller screens */
+  }
+}
+
+@media (max-width: 900px) {
+  .awards-container {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* 2 columns for screens less than 900px */
+  }
+
+  .awards-container.center-row {
+    grid-template-columns: 1fr; /* 1 column for the second row on smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .awards-container {
+    grid-template-columns: 1fr; /* 1 column for screens less than 600px */
+  }
+
+  .awards-container.center-row {
+    grid-template-columns: 1fr; /* 1 column for the second row on smaller screens */
+  }
+}
