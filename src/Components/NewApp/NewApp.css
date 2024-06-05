@@ -16,14 +16,27 @@
   color: #ffffff;
 }
 
+.box img.arrow {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
 .newapp .container {
+  max-width: 75%;
+  margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 20px;
-  max-width: 1300px;
-  margin: 0 auto;
-  background-color: #000000;
+  gap: 10px;
+  margin-top: 100px;
+  /* max-width: 1300px; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 430px;
+  background-color: #00000000;
 }
 
 /* Common box styling */
@@ -40,6 +53,7 @@
   padding: 20px;
   text-align: center;
   box-sizing: border-box;
+  position: relative;
 }
 
 .newapp .box span {
@@ -48,52 +62,45 @@
   font-weight: 500;
 }
 
-.newapp .box .arrow {
+/* .newapp .box .arrow {
   font-size: 24px;
   margin-left: 10px;
   display: inline-block;
   transition: transform 0.3s;
-}
+} */
 
-.newapp .box:hover .arrow {
+/* .newapp .box:hover .arrow {
   transform: translateX(5px);
-}
+} */
 
-.newapp .box:hover {
+/* .newapp .box:hover {
   transform: scale(1.05);
-}
+} */
 
 /* Individual box colors */
-.newapp .boxorange1 {
-  background-color: #024873;
+.boxorange1 {
+  background-color: #00396c;
 }
-
-.newapp .boxblue2 {
-  background-color: #f2a444;
+.boxblue2 {
+  background-color: #f7b744;
 }
-
-.newapp .boxorange3 {
+.boxorange3 {
   background-color: #025951;
 }
-
-.newapp .boxblue4 {
-  background-color: #f2a444;
+.boxblue4 {
+  background-color: #f7b744;
 }
-
-.newapp .boxblue5 {
-  background-color: #024873;
+.boxblue5 {
+  background-color: #f7b744;
 }
-
-.newapp .boxorange6 {
+.boxorange6 {
+  background-color: #00396c;
+}
+.boxorangee {
   background-color: #025951;
 }
-
-.newapp .boxblue7 {
-  background-color: #f2a444;
-}
-
-.newapp .boxorange8 {
-  background-color: #024873;
+.boxorange8 {
+  background-color: #00396c;
 }
 
 /* Box dimensions */
@@ -111,41 +118,119 @@
 
 /* Grid positions */
 .newapp .boxorange1 {
+  max-width: 277px;
+  border-radius: 35px;
+  height: 212px;
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
 }
 
 .newapp .boxblue2 {
+  border-radius: 35px;
+  max-width: 374px;
+  height: 212px;
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
 }
 
 .newapp .boxorange3 {
+  border-radius: 35px;
+  max-width: 512px;
+  height: 217px;
   grid-column: 3 / span 2;
   grid-row: 1 / span 1;
 }
 
 .newapp .boxblue4 {
+  border-radius: 35px;
+  max-width: 244px;
+  height: 407px;
+  margin-left: 5px;
   grid-column: 3 / span 1;
   grid-row: 2 / span 2;
 }
 
 .newapp .boxblue5 {
+  border-radius: 35px;
+  max-width: 277px;
+  height: 417px;
   grid-column: 1 / span 1;
   grid-row: 2 / span 2;
+  background-color: #f2a444;
 }
 
 .newapp .boxorange6 {
+  border-radius: 35px;
+  max-width: 374px;
+  height: 192px;
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
 }
 
-.newapp .boxblue7 {
+.newapp .boxorangee {
+  border-radius: 35px;
+  max-width: 374px;
+  height: 192px;
+
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
 }
 
 .newapp .boxorange8 {
+  border-radius: 35px;
+  max-width: 247px;
+  height: 407px;
+  margin-left: -15px;
   grid-column: 4 / span 1;
   grid-row: 2 / span2;
+}
+
+.newapp .box img.hospitality-image {
+  position: absolute;
+  top: -8px;
+  left: 0px;
+  width: auto;
+  height: auto;
+}
+
+.newapp .box img.datacenters-image {
+  position: absolute;
+
+  left: 60px;
+  bottom: 60px;
+  width: auto;
+  height: auto;
+}
+
+.newapp .box img.Residential-image {
+  position: relative;
+  top: 20px;
+  left: 0px;
+  bottom: 0px;
+  width: auto;
+  height: auto;
+}
+
+.newapp .box img.Kitchen-image {
+  position: relative;
+  top: 20px;
+  left: 50px;
+  bottom: 0px;
+  width: auto;
+  height: auto;
+}
+
+
+.newapp .box img.FanMan-image {
+  position: absolute;
+  z-index: 1;
+  top: 178px;
+  left: -40px;
+  bottom: 0px;
+  width: auto;
+  height: auto;
+}
+
+.newapp .Supermarket{
+  padding-bottom: 150px;
 }
