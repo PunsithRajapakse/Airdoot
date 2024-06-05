@@ -48,24 +48,24 @@ const Plan = () => {
         </div>
         <div className="plan-box6">
           <h2>Design & Estimation</h2>
-          <p>Comming Soon</p>
+          <p>Coming Soon</p>
           <button>Show More</button>
         </div>
         {showMore && (
           <>
             <div className="plan-box7">
               <h2>Upgrade (Retrofit)</h2>
-              <p>Comming Soon</p>
+              <p>Coming Soon</p>
               <button>Show More</button>
             </div>
             <div className="plan-box8">
               <h2>Operations & Maintenance</h2>
-              <p>Comming Soon</p>
+              <p>Coming Soon</p>
               <button>Show More</button>
             </div>
             <div className="plan-box9">
               <h2>Spare Parts Sales</h2>
-              <p>Comming Soon</p>
+              <p>Coming Soon</p>
               <button>Show More</button>
             </div>
           </>
