@@ -14,8 +14,9 @@
 .specialisations-container h1 {
   font-family: "Agrandir", sans-serif;
   font-size: 45px;
-  margin-bottom: 10px;
   font-weight: 400;
+  margin-bottom: 10px;
+  
 }
 
 .specialisations-container p {
@@ -23,7 +24,6 @@
   font-size: 20px;
   margin-bottom: 40px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
 }
 
 .specialisations-options {

@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Agrandir:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.planContainer {
+ 
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f6f1;
+}
+
+header1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+header1 p1 {
+  font-size: 18px;
+  color: #025951;
+  border: 1px solid #e60000; /* Added border */
+  /* padding: 20px; */
+  border-radius: 15px;
+  margin: 100px;
+  font-family: "Poppins", sans-serif;
+  width: 180px;
+  height: 120px;
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-bottom: 90px;
+  padding-top: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+}
+
+header1 p2 {
+  font-size: 16px;
+  color: #025951;
+  border: 1px solid #e60000; /* Added border */
+  padding: 20px;
+  border-radius: 55px;
+  margin: 80px;
+  font-family: "Poppins", sans-serif;
+  width: 250px;
+  height: 25px;
+  margin-top: 200px;
+  margin-left: -80px;
+  padding-bottom: 27px;
+}
+
+header1 h1 {
+  margin: 10px 0;
+  color: #f7b744;
+  font-family: "Agrandir", sans-serif;
+  margin-left: -150px;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+header1 h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #f7b744;
+  font-family: "Quicksand", sans-serif;
+  margin-left: -150px;
+}
+
+header1 .save-money {
+  font-weight: bold;
+  color: #025951;
+}
+
+.plans {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  justify-items: center;
+  margin-top: -50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.plan-box1 {
+  background-color: #4684a1;
+  color: white;
+  border-radius: 8px;
+  width: 300px;
+  margin: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  height: 350px;
+}
+
+.plan-box2 {
+  background-color: #7ac3d1;
+  color: white;
+  border-radius: 8px;
+  width: 300px;
+  margin: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  height: 350px;
+}
+
+.plan-box3 {
+  background-color: #213f5e;
+  color: white;
+  border-radius: 8px;
+  width: 300px;
+  margin: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  height: 350px;
+}
+
+.plan-box4 {
+  background-color: #4b7eaf;
+  color: white;
+  border-radius: 8px;
+  width: 300px;
+  margin: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  height: 350px;
+}
+.plan-box5 {
+  background-color: #2197bd;
+  color: white;
+  border-radius: 8px;
+  width: 300px;
+  margin: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  height: 350px;
+}
+.plan-box6 {
+  background-color: #5bc1e6;
+  color: white;
+  border-radius: 8px;
+  width: 300px;
+  margin: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  height: 350px;
+}
+.plan-box7 {
+  background-color: #213f5e;
+  color: white;
+  border-radius: 8px;
+  width: 300px;
+  margin: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  height: 350px;
+}
+.plan-box8 {
+  background-color: #4684a1;
+  color: white;
+  border-radius: 8px;
+  width: 300px;
+  margin: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  height: 350px;
+}
+.plan-box9 {
+  background-color: #4b7eaf;
+  color: white;
+  border-radius: 8px;
+  width: 300px;
+  margin: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  height: 350px;
+}
+
+.plan-box:hover {
+  transform: scale(1.05);
+}
+
+.plans .plan-box1 h2 {
+  font-family: "Agrandir", sans-serif;
+}
+.plans .plan-box2 h2 {
+  font-family: "Agrandir", sans-serif;
+}
+.plans .plan-box3 h2 {
+  font-family: "Agrandir", sans-serif;
+}
+.plans .plan-box4 h2 {
+  font-family: "Agrandir", sans-serif;
+}
+.plans .plan-box5 h2 {
+  font-family: "Agrandir", sans-serif;
+}
+.plans .plan-box6 h2 {
+  font-family: "Agrandir", sans-serif;
+}
+.plans .plan-box7 h2 {
+  font-family: "Agrandir", sans-serif;
+}
+.plans .plan-box8 h2 {
+  font-family: "Agrandir", sans-serif;
+}
+.plans .plan-box9 h2 {
+  font-family: "Agrandir", sans-serif;
+}
+
+.plans .plan-box1 p {
+  font-family: "Poppins", sans-serif;
+  display: none;
+}
+.plans .plan-box2 p {
+  font-family: "Poppins", sans-serif;
+  display: none;
+}
+.plans .plan-box3 p {
+  font-family: "Poppins", sans-serif;
+  display: none;
+}
+.plans .plan-box4 p {
+  font-family: "Poppins", sans-serif;
+  display: none;
+}
+.plans .plan-box5 p {
+  font-family: "Poppins", sans-serif;
+  display: none;
+}
+.plans .plan-box6 p {
+  font-family: "Poppins", sans-serif;
+}
+.plans .plan-box7 p {
+  font-family: "Poppins", sans-serif;
+}
+.plans .plan-box8 p {
+  font-family: "Poppins", sans-serif;
+}
+.plans .plan-box9 p {
+  font-family: "Poppins", sans-serif;
+}
+
+.plan-box1 button {
+  background-color: #025951;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 180px;
+}
+.plan-box2 button {
+  background-color: #00396c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 180px;
+}
+.plan-box3 button {
+  background-color: #025951;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 128px;
+}
+.plan-box4 button {
+  background-color: #00396c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 180px;
+}
+.plan-box5 button {
+  background-color: #025951;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 180px;
+}
+.plan-box6 button {
+  background-color: #00396c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 140px;
+}
+.plan-box7 button {
+  background-color: #025951;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 180px;
+}
+.plan-box8 button {
+  background-color: #00396c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 153px;
+}
+.plan-box9 button {
+  background-color: #025951;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 180px;
+}
+.plan-box button:hover {
+  background-color: #218838;
+}
+
+.pipes {
+  display: flex;
+  justify-content: center;
+  margin-top: -110px;
+}
+
+.pipes .leftpipe {
+  margin-top: 2px;
+  margin-left: 0px;
+}
+
+.pipes .rightpipe {
+  margin-top: 2px;
+  margin-left: 200px;
+}
+
+.pipes .logo {
+  margin-left: 120px;
+  margin-right: 20px;
+  margin-top: 120px;
+  width: 20px;
+  height: 10px;
+}
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  header1 {
+    grid-template-columns: 1fr;
+  }
+
+  header1 p1,
+  header1 p2 {
+    margin: 20px auto;
+    width: auto;
+  }
+
+  .plans {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+
+  .plan-box {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .pipes {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .pipes .rightpipe,
+  .pipes .leftpipe {
+    margin-left: 0;
+    display: none;
+  }
+
+  .pipes .logo {
+    margin: 10px 0px;
+    width: 50px;
+    height: auto;
+  }
+}
+/* Tablet responsiveness */
+@media (min-width: 769px) and (max-width: 1024px) {
+  header1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .plans {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

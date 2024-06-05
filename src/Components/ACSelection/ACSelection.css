@@ -8,6 +8,11 @@
   padding: 40px 20px;
 }
 
+.ac-selection .ac-grid .ac-item{
+cursor: pointer;
+}
+
+
 .ac-selection h1 {
   font-family: "Agrandir", sans-serif;
   font-size: 45px;

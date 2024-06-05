@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import "./ACSelection.css";
 
 // Import images statically
@@ -34,102 +35,106 @@ import ac28 from "./27.png";
 
 const ACSelection = () => {
   const [showMore, setShowMore] = useState(false);
+  const history = useHistory();
+
+  const handleACClick = () => {
+    history.push("/plans");
+  };
 
   return (
     <div className="ac-selection">
       <h1>choose your AC</h1>
       <p>Pick the air-conditioner you <br />are looking to service</p>
       <div className="ac-grid">
-        <div className="ac-item ac1">
+        <div className="ac-item ac1" onClick={handleACClick}>
           <img src={ac1} alt="AC 1" />
         </div>
-        <div className="ac-item ac2">
+        <div className="ac-item ac2" onClick={handleACClick}>
           <img src={ac2} alt="AC 2" />
         </div>
-        <div className="ac-item ac3">
+        <div className="ac-item ac3" onClick={handleACClick}>
           <img src={ac3} alt="AC 3" />
         </div>
-        <div className="ac-item ac4">
+        <div className="ac-item ac4" onClick={handleACClick}>
           <img src={ac4} alt="AC 4" />
         </div>
-        <div className="ac-item ac5">
+        <div className="ac-item ac5" onClick={handleACClick}>
           <img src={ac5} alt="AC 5" />
         </div>
-        <div className="ac-item ac6">
+        <div className="ac-item ac6" onClick={handleACClick}>
           <img src={ac7} alt="AC 6" />
         </div>
-        <div className="ac-item ac7">
+        <div className="ac-item ac7" onClick={handleACClick}>
           <img src={ac7} alt="AC 7" />
         </div>
-        <div className="ac-item ac8">
+        <div className="ac-item ac8" onClick={handleACClick}>
           <img src={ac8} alt="AC 8" />
         </div>
-        <div className="ac-item ac9">
+        <div className="ac-item ac9" onClick={handleACClick}>
           <img src={ac10} alt="AC 9" />
         </div>
-        <div className="ac-item ac10">
+        <div className="ac-item ac10" onClick={handleACClick}>
           <img src={ac10} alt="AC 10" />
         </div>
         {showMore && (
           <>
-            <div className="ac-item ac11">
+            <div className="ac-item ac11" onClick={handleACClick}>
               <img src={ac11} alt="AC 11" />
             </div>
-            <div className="ac-item ac12">
+            <div className="ac-item ac12" onClick={handleACClick}>
               <img src={ac12} alt="AC 12" />
             </div>
-            <div className="ac-item ac13">
+            <div className="ac-item ac13" onClick={handleACClick}>
               <img src={ac13} alt="AC 13" />
             </div>
-            <div className="ac-item ac14">
+            <div className="ac-item ac14" onClick={handleACClick}>
               <img src={ac14} alt="AC 14" />
             </div>
-            <div className="ac-item ac15">
+            <div className="ac-item ac15" onClick={handleACClick}>
               <img src={ac15} alt="AC 15" />
             </div>
-            <div className="ac-item ac16">
+            <div className="ac-item ac16" onClick={handleACClick}>
               <img src={ac16} alt="AC 16" />
             </div>
-            <div className="ac-item ac17">
+            <div className="ac-item ac17" onClick={handleACClick}>
               <img src={ac17} alt="AC 17" />
             </div>
-            <div className="ac-item ac18">
+            <div className="ac-item ac18" onClick={handleACClick}>
               <img src={ac18} alt="AC 18" />
             </div>
-            <div className="ac-item ac19">
+            <div className="ac-item ac19" onClick={handleACClick}>
               <img src={ac19} alt="AC 19" />
             </div>
-            <div className="ac-item ac20">
+            <div className="ac-item ac20" onClick={handleACClick}>
               <img src={ac20} alt="AC 20" />
             </div>
-            <div className="ac-item ac21">
+            <div className="ac-item ac21" onClick={handleACClick}>
               <img src={ac21} alt="AC 21" />
             </div>
-            <div className="ac-item ac22">
+            <div className="ac-item ac22" onClick={handleACClick}>
               <img src={ac22} alt="AC 22" />
             </div>
-            <div className="ac-item ac23">
+            <div className="ac-item ac23" onClick={handleACClick}>
               <img src={ac23} alt="AC 23" />
             </div>
-            <div className="ac-item ac24">
+            <div className="ac-item ac24" onClick={handleACClick}>
               <img src={ac24} alt="AC 24" />
             </div>
-            <div className="ac-item ac25">
+            <div className="ac-item ac25" onClick={handleACClick}>
               <img src={ac25} alt="AC 25" />
             </div>
 
             <hr/>
 
-            <div className="ac-item ac26">
+            <div className="ac-item ac26" onClick={handleACClick}>
               <img src={ac26} alt="AC 26" />
             </div>
-            <div className="ac-item ac27">
+            <div className="ac-item ac27" onClick={handleACClick}>
               <img src={ac27} alt="AC 27" />
             </div>
-            <div className="ac-item ac28">
+            <div className="ac-item ac28" onClick={handleACClick}>
               <img src={ac28} alt="AC 28" />
             </div>
-            
           </>
         )}
       </div>

@@ -16,6 +16,7 @@ import Plan from "../../Components/Plan/Plan";
 import AssistanceTypes from "../../Components/Assistance/Assistance";
 import ACSelection from "../../Components/ACSelection/ACSelection";
 import Specialisations from "../../Components/Specialisations/Specialisations";
+import Testimonials from "../../Components/Testimonials/Testimonials"
 
 const Home = () => {
   return (
@@ -26,10 +27,13 @@ const Home = () => {
       <AssistanceTypes />
      <Specialisations />
      <NewApp/>
-      <Plan />
+     <Brands />
+   
+     
+      {/* <Plan /> */}
+      <Testimonials />
      <Clients />
-      <Brands />
-      <NewFooter />
+     <NewFooter />
       
         {/* <NewApp/>
     <Promotion/>

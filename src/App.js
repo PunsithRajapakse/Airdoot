@@ -9,6 +9,7 @@ import BuyForm from "./Routes/Form/Form";
 import RollingPage from "./Components/Rollingpage/Rollingpage.jsx";
 import ACSelection from "./Components/ACSelection/ACSelection.jsx";
 import Banner from "./Components/Banner/Banner";
+import Plan from "./Routes/Plan/Plan.jsx";
 
 function App() {
   const [showApp, setShowApp] = useState(false);
@@ -26,7 +27,7 @@ function App() {
 
   return (
     <>
-      {/* {showApp ? ( */}
+      {showApp ? (
         <Router>
           <Header />
           <Switch>
@@ -43,6 +44,7 @@ function App() {
                 </>
               )}
             />
+            <Route path="/plans" component={Plan} />
             {/* <Route exact path="/services" component={Services} />
             <Route exact path="/moreservices" component={MoreServices} />
             <Route exact path='/form' component={BuyForm} />
@@ -50,9 +52,9 @@ function App() {
           </Switch>
           {/* <Footer/> */}
         </Router>
-      {/* ) : (
+      ) : (
         <RollingPage onFinish={handleRollingPageFinish} />
-      )} */}
+      )}
     </>
   );
 }

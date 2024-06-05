@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Plan.css';
 import LeftPipe from "./left-pipe.png";
 import RightPipe from "./right-pipe.png";
 import Logo from "./logo.png";
 
 const Plan = () => {
-  const [showMore, setShowMore] = useState(false);
   
+  const [showMore, setShowMore] = useState(false);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="planContainer">
       <header1>

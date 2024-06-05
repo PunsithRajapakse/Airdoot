@@ -11,8 +11,8 @@ import FanMan from "./fanman.png"; // Import the image for data centers section
 const NewApp = () => {
   return (
     <div className="newapp">
-      <h1>Applications</h1>
-      <h2>Various industries we cater to</h2>
+      <h1>applications</h1>
+      <h2>various industries we cater to</h2>
       <div className="container">
         <div className="box boxorange1">
           <img
@@ -45,7 +45,7 @@ const NewApp = () => {
           <img src={arrowIcon} alt="Arrow" className="arrow" />
         </div>
         <div className="box boxtall boxblue5">
-          <span>Residential</span>
+          <span>Residential <br/>Servicess</span>
 
           <img
             src={Residential}
@@ -59,11 +59,11 @@ const NewApp = () => {
           <img src={arrowIcon} alt="Arrow" className="arrow" />
         </div>
         <div className="box boxorangee">
-          <span>Project Reports</span>
+          <span>Cold Room <br/>Storage</span>
           <img src={arrowIcon} alt="Arrow" className="arrow" />
         </div>
         <div className="box boxtall boxorange8">
-          <span>Commercial Kitchen</span>
+          <span>Commercial<br/> Kitchen</span>
           <img src={Kitchen} alt="Hospitality" className="Kitchen-image" />
           <img src={arrowIcon} alt="Arrow" className="arrow" />
         </div>

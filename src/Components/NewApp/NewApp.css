@@ -1,25 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Agrandir:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+
 .newapp {
   text-align: center;
   padding: 20px;
-  background-color: #000000;
+  background-color: #1E191B;
+  margin-bottom: -60px;
 }
 
 .newapp h2 {
-  margin-bottom: 20px;
-  font-size: 18px;
-  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  color: #FEFEFE;
 }
 
 .newapp h1 {
-  margin-bottom: 20px;
-  font-size: 36px;
-  color: #ffffff;
+  font-family: "Agrandir", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #FEFEFE;
 }
 
 .box img.arrow {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: 20px;
+  right: 20px;
   width: 30px;
   height: 30px;
 }
@@ -59,8 +67,20 @@
 .newapp .box span {
   margin-bottom: 10px;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  
 }
+.newapp .boxblue5 span{
+margin-top: 30px;
+
+}
+  
+.newapp .boxorange8 span{
+  margin-top: 50px;
+  
+  }
 
 /* .newapp .box .arrow {
   font-size: 24px;
@@ -79,7 +99,7 @@
 
 /* Individual box colors */
 .boxorange1 {
-  background-color: #00396c;
+  background-color: #00396C;
 }
 .boxblue2 {
   background-color: #f7b744;
@@ -91,10 +111,10 @@
   background-color: #f7b744;
 }
 .boxblue5 {
-  background-color: #f7b744;
+  background-color: #F7B744;
 }
 .boxorange6 {
-  background-color: #00396c;
+  background-color: #00396C;
 }
 .boxorangee {
   background-color: #025951;
@@ -156,7 +176,7 @@
   height: 417px;
   grid-column: 1 / span 1;
   grid-row: 2 / span 2;
-  background-color: #f2a444;
+  background-color: #F7B744;
 }
 
 .newapp .boxorange6 {
@@ -213,7 +233,7 @@
 
 .newapp .box img.Kitchen-image {
   position: relative;
-  top: 20px;
+  margin-top: -20px;
   left: 50px;
   bottom: 0px;
   width: auto;
@@ -224,7 +244,7 @@
 .newapp .box img.FanMan-image {
   position: absolute;
   z-index: 1;
-  top: 178px;
+  top: 115px;
   left: -40px;
   bottom: 0px;
   width: auto;
@@ -232,5 +252,5 @@
 }
 
 .newapp .Supermarket{
-  padding-bottom: 150px;
+  padding-bottom: 250px;
 }
