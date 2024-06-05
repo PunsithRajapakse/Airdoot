@@ -16,15 +16,14 @@
   color: #ffffff;
 }
 
-
-
 .box img.arrow {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
+
 .newapp .container {
   max-width: 75%;
 
@@ -52,6 +51,7 @@
   padding: 20px;
   text-align: center;
   box-sizing: border-box;
+  position: relative;
 }
 
 .newapp .box span {
@@ -76,14 +76,30 @@
 }
 
 /* Individual box colors */
-.boxorange1 { background-color: #f2994a; }
-.boxblue2 { background-color: #2f80ed; }
-.boxorange3 { background-color: #6fcf97; }
-.boxblue4 { background-color: #003366; }
-.boxblue5 { background-color: #2f80ed; }
-.boxorange6 { background-color: #f2c94c; }
-.boxorange7 { background-color: #27ae60; }
-.boxorange8 { background-color: #f2994a; }
+.boxorange1 {
+  background-color: #00396c;
+}
+.boxblue2 {
+  background-color: #f7b744;
+}
+.boxorange3 {
+  background-color: #025951;
+}
+.boxblue4 {
+  background-color: #f7b744;
+}
+.boxblue5 {
+  background-color: #f7b744;
+}
+.boxorange6 {
+  background-color: #00396c;
+}
+.boxorange7 {
+  background-color: #025951;
+}
+.boxorange8 {
+  background-color: #00396c;
+}
 
 /* Box dimensions */
 .newapp .box {
@@ -101,12 +117,14 @@
 /* Grid positions */
 .newapp .boxorange1 {
   max-width: 277px;
+  border-radius: 35px;
   height: 212px;
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
 }
 
 .newapp .boxblue2 {
+  border-radius: 35px;
   max-width: 374px;
   height: 212px;
   grid-column: 2 / span 1;
@@ -114,6 +132,7 @@
 }
 
 .newapp .boxorange3 {
+  border-radius: 35px;
   max-width: 512px;
   height: 217px;
   grid-column: 3 / span 2;
@@ -121,6 +140,7 @@
 }
 
 .newapp .boxblue4 {
+  border-radius: 35px;
   max-width: 244px;
   height: 444px;
   grid-column: 3 / span 1;
@@ -128,23 +148,24 @@
 }
 
 .newapp .boxblue5 {
+  border-radius: 35px;
   max-width: 277px;
   height: 447px;
   grid-column: 1 / span 1;
   grid-row: 2 / span 2;
   background-color: #f2a444;
-
 }
 
 .newapp .boxorange6 {
+  border-radius: 35px;
   max-width: 374px;
   height: 217px;
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
-  
 }
 
 .newapp .boxblue7 {
+  border-radius: 35px;
   max-width: 374px;
   height: 212px;
   background-color: #ffffff;
@@ -154,6 +175,7 @@
 }
 
 .newapp .boxorange8 {
+  border-radius: 35px;
   max-width: 247px;
   height: 444px;
   margin-left: -15px;
