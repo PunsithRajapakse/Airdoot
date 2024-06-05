@@ -94,7 +94,7 @@
 .boxorange6 {
   background-color: #00396c;
 }
-.boxorange7 {
+.boxorangee {
   background-color: #025951;
 }
 .boxorange8 {
@@ -142,7 +142,8 @@
 .newapp .boxblue4 {
   border-radius: 35px;
   max-width: 244px;
-  height: 444px;
+  height: 407px;
+  margin-left: 5px;
   grid-column: 3 / span 1;
   grid-row: 2 / span 2;
 }
@@ -150,7 +151,7 @@
 .newapp .boxblue5 {
   border-radius: 35px;
   max-width: 277px;
-  height: 447px;
+  height: 417px;
   grid-column: 1 / span 1;
   grid-row: 2 / span 2;
   background-color: #f2a444;
@@ -159,16 +160,15 @@
 .newapp .boxorange6 {
   border-radius: 35px;
   max-width: 374px;
-  height: 217px;
+  height: 192px;
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
 }
 
-.newapp .boxblue7 {
+.newapp .boxorangee {
   border-radius: 35px;
   max-width: 374px;
-  height: 212px;
-  background-color: #ffffff;
+  height: 192px;
 
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
@@ -177,7 +177,7 @@
 .newapp .boxorange8 {
   border-radius: 35px;
   max-width: 247px;
-  height: 444px;
+  height: 407px;
   margin-left: -15px;
   grid-column: 4 / span 1;
   grid-row: 2 / span2;

@@ -35,7 +35,7 @@ const NewApp = () => {
           <span>Commercial Spaces</span>
           <img src={arrowIcon} alt="Arrow" className="arrow" />
         </div>
-        <div className="box boxorange7">
+        <div className="box boxorangee">
           <span>Project Reports</span>
           <img src={arrowIcon} alt="Arrow" className="arrow" />
         </div>
