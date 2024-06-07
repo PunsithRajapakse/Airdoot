@@ -35,7 +35,9 @@ cursor: pointer;
   margin-top: 50px;
 }
 .ac-item.ac3 img {
-  margin-top: 40px;
+  margin-top: 18px;
+  height: 120px;
+  width: 130px;
 }
 
 .ac-item.ac4 img {
@@ -43,8 +45,8 @@ cursor: pointer;
   width: auto;
 }
 .ac-item.ac5 img {
-  width: auto;
-  display: none;
+  margin-top: 50px;
+  
 }
 
 .ac-item.ac6 img {
@@ -53,11 +55,12 @@ margin-top: 50px;
 
 .ac-item.ac7 img {
   margin-top: 50px;
-  display: none;
+  
 }
 
 .ac-item.ac8 img {
-  display: none;
+  height: 150px;
+  width: 130px;
 }
 
 .ac-item.ac9 img {
@@ -65,7 +68,9 @@ margin-top: 50px;
 }
 
 .ac-item.ac10 img {
- display: none;
+  margin-top: 8px;
+  height: 150px;
+  width: 130px;
 }
 
 .ac-item.ac11 img {
