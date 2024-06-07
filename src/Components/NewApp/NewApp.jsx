@@ -39,13 +39,13 @@ const NewApp = () => {
         <div className="box boxtall boxblue4">
           <img src={FanMan} alt="Hospitality" className="FanMan-image" />
           <span className="Supermarket">
-            Supermarket & <br />
+            Supermarket &
             Hypermarket
           </span>
           <img src={arrowIcon} alt="Arrow" className="arrow" />
         </div>
         <div className="box boxtall boxblue5">
-          <span>Residential <br/>Servicess</span>
+          <span className="residential">Residential <br/>Servicess</span>
 
           <img
             src={Residential}
