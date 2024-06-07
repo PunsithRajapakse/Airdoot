@@ -224,9 +224,9 @@ margin-top: 30px;
 
 .newapp .box img.Residential-image {
   position: relative;
-  top: 20px;
+  top: 0px;
   left: 0px;
-  bottom: 0px;
+  bottom: 30px;
   width: auto;
   height: auto;
 }
