@@ -10,6 +10,7 @@ import RollingPage from "./Components/Rollingpage/Rollingpage.jsx";
 import ACSelection from "./Components/ACSelection/ACSelection.jsx";
 import Banner from "./Components/Banner/Banner";
 import Plan from "./Routes/Plan/Plan.jsx";
+import NewFooter from "./Components/NewFooter/NewFooter.jsx";
 
 function App() {
   const [showApp, setShowApp] = useState(false);
@@ -51,6 +52,7 @@ function App() {
             <Route path="/ACSelection" component={ACSelection} /> */}
           </Switch>
           {/* <Footer/> */}
+          <NewFooter/>
         </Router>
       ) : (
         <RollingPage onFinish={handleRollingPageFinish} />
