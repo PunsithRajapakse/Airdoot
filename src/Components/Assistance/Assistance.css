@@ -4,7 +4,7 @@
 .A_container {
   text-align: center;
   background-color: #153868;
-  padding: 50px;
+  padding: 10px;
   color: white;
   font-family: Arial, sans-serif;
 }
@@ -28,37 +28,50 @@
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-  margin-left: 25px;
+  margin-left: 0px;
   margin-top: 70px;
   margin-bottom: 70px;
 }
 
 .A_container .assistance-options img {
-  margin-top: -20px;
-  height: 100px;
-  width: 100px;
+  margin-top: -10px;
+  height: 80px;
+  width: 80px;
   margin-bottom: -30px;
 }
 
+.A_container .assistance-options .shape5 {
+  margin-top: -10px;
+  height: 60px;
+  width: 60px;
+  margin-bottom: -30px;
+}
+
+.A_container .assistance-options .shape6 {
+  margin-top: -5px;
+  height: 60px;
+  width: 60px;
+  margin-bottom: -5px;
+}
 .A_container .option {
   background-color: white;
   border-radius: 150px 150px 0px 0px;
   padding: 20px;
-  width: 160px;
+  width: 140px;
   height: 210px;
   text-align: center;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .A_container .option h2 {
   font-family: "Agrandir", sans-serif;
   font-size: 1.5em;
   margin-bottom: 0.5em;
+  color: #f8f6f1;
 }
 
 .A_container .option p {
   font-family: "Quicksand", sans-serif;
-
   font-size: 1em;
 }
 
@@ -75,18 +88,44 @@
   background-color: #025951;
 }
 
+.A_container .service p {
+  color: #f8f6f1;
+}
+
 .A_container .gas-charging {
   background-color: #1e191b;
 }
 
+.A_container .gas-charging p{
+ font-size: 15px;
+}
+
 .A_container .installation {
   background-color: #f3948d;
-
 }
 .A_container .installation p {
   color: #203162;
   font-weight: 800;
 }
+
+.A_container .amc {
+  background-color: #ffc610;
+}
+
+.A_container .amc p {
+  color: #203162;
+  font-weight: 800;
+}
+
+.A_container .inspection {
+  background-color: #025951;
+}
+
+.A_container .inspection p {
+  color: #f8f6f1;
+  font-weight: 800;
+}
+
 /* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
   .A_container {

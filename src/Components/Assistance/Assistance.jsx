@@ -4,6 +4,8 @@ import shape1 from "./shape1-removebg-preview.png";
 import shape2 from "./shape2-removebg-preview.png";
 import shape3 from "./shape3-removebg-preview.png";
 import shape4 from "./shape4-removebg-preview.png";
+import shape5 from "./Screenshot_2024-06-07_132941-removebg-preview.png";
+import shape6 from "./Screenshot_2024-06-07_133013-removebg-preview.png";
 
 const AssistanceTypes = () => {
   return (
@@ -43,7 +45,26 @@ const AssistanceTypes = () => {
         <div className="option installation">
           <img src={shape4} alt="Ancillary" />
           <h2>Installation</h2>
-          <p>It must have <br/>more than one answer</p>
+          <p>
+            It must have <br />
+            more than one answer
+          </p>
+        </div>
+        <div className="option amc">
+        <img src={shape5} alt="Ancillary" className="shape5" />
+          <h2>Annual Maintenance Contact</h2>
+          <p>
+            It must have <br />
+            more than one answer
+          </p>
+        </div>
+        <div className="option inspection">
+        <img src={shape6} alt="Ancillary" className="shape6" />
+          <h2>Inspection</h2>
+          <p>
+            It must have <br />
+            more than one answer
+          </p>
         </div>
       </div>
     </div>
