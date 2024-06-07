@@ -40,7 +40,6 @@
   grid-template-rows: repeat(3, 1fr);
   gap: 10px;
   margin-top: 100px;
-  /* max-width: 1300px; */
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 430px;
@@ -70,32 +69,15 @@
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
   color: white;
-  
 }
-.newapp .boxblue5 span{
-margin-top: 30px;
 
+.newapp .boxblue5 span {
+  margin-top: 30px;
 }
-  
-.newapp .boxorange8 span{
+
+.newapp .boxorange8 span {
   margin-top: 50px;
-  
-  }
-
-/* .newapp .box .arrow {
-  font-size: 24px;
-  margin-left: 10px;
-  display: inline-block;
-  transition: transform 0.3s;
-} */
-
-/* .newapp .box:hover .arrow {
-  transform: translateX(5px);
-} */
-
-/* .newapp .box:hover {
-  transform: scale(1.05);
-} */
+}
 
 /* Individual box colors */
 .boxorange1 {
@@ -191,7 +173,6 @@ margin-top: 30px;
   border-radius: 35px;
   max-width: 374px;
   height: 192px;
-
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
 }
@@ -202,7 +183,7 @@ margin-top: 30px;
   height: 407px;
   margin-left: -15px;
   grid-column: 4 / span 1;
-  grid-row: 2 / span2;
+  grid-row: 2 / span 2;
 }
 
 .newapp .box img.hospitality-image {
@@ -215,7 +196,6 @@ margin-top: 30px;
 
 .newapp .box img.datacenters-image {
   position: absolute;
-
   left: 60px;
   bottom: 60px;
   width: auto;
@@ -224,9 +204,9 @@ margin-top: 30px;
 
 .newapp .box img.Residential-image {
   position: relative;
-  top: 20px;
+  top: 0px;
   left: 0px;
-  bottom: 0px;
+  bottom: 30px;
   width: auto;
   height: auto;
 }
@@ -240,7 +220,6 @@ margin-top: 30px;
   height: auto;
 }
 
-
 .newapp .box img.FanMan-image {
   position: absolute;
   z-index: 1;
@@ -251,6 +230,191 @@ margin-top: 30px;
   height: auto;
 }
 
-.newapp .Supermarket{
+.newapp .Supermarket {
   padding-bottom: 250px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .newapp {
+    text-align: center;
+    padding: 20px;
+    background-color: #1E191B;
+    padding-bottom: 100px;
+  }
+  .newapp .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 100%;
+    padding-bottom: 150px;
+  }
+
+  .newapp .box {
+    height: auto;
+  }
+
+  .newapp .boxorange1,
+  .newapp .boxblue2,
+  .newapp .boxorange3,
+  .newapp .boxblue4,
+  .newapp .boxblue5,
+  .newapp .boxorange6,
+  .newapp .boxorangee,
+  .newapp .boxorange8 {
+    max-width: 100%;
+    height: auto;
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  /* boxes */
+  .newapp .boxorange1{
+    max-width: 100%;
+    height: 130px;
+  }
+
+  .newapp .boxblue2{
+    max-width: 100%;
+    height: 130px;
+  }
+  .newapp .boxorange3{
+    max-width: 100%;
+    height: 130px;
+  }
+
+  .newapp .boxblue4{
+    max-width: 100%;
+    height: 130px;
+  }
+
+  .newapp .boxblue5{
+    max-width: 100%;
+    height: 130px;
+  }
+  .newapp .boxorange6{
+    max-width: 100%;
+    height: 130px;
+  }
+  .newapp .boxorangee{
+    max-width: 100%;
+    height: 130px;
+  }
+  .newapp .boxorange8{
+    max-width: 100%;
+    margin-top: -20px;
+    margin-left: 10px;
+    height: 130px;
+  }
+
+
+
+  /* Images  */
+
+  .container .hospitality-image {
+    max-width: 90px;
+    margin-top: 8px;
+  }
+
+  .container .datacenters-image{
+    max-width: 60px;
+    margin-top: -10px;
+    margin-left: -80px;
+    position: relative;
+    
+  }
+
+
+  .container .Residential-image{
+    max-width: 40px;
+    margin-top: -30px;
+    margin-left: -80px;
+    position: relative;
+    
+    
+  }
+
+  .container .Kitchen-image{
+    max-width: 60px;
+    margin-top: 20px;
+    margin-left: -50px;
+    position: absolute;
+    
+    
+  }
+
+
+
+  
+/* Text */
+
+.newapp .boxorange1 span {
+  font-size: 19px; /* Adjust this value to the desired font size */
+}
+
+.newapp .boxblue2 span {
+  font-size: 19px; /* Adjust this value to the desired font size */
+}
+
+.newapp .boxorange3 span {
+  font-size: 19px; /* Adjust this value to the desired font size */
+}
+
+.newapp .boxblue4 span{
+  margin-top: 220px;
+  font-size: 19px;
+  max-width: 100%;
+  height: 130px;
+}
+
+.newapp .boxblue5 span {
+  margin-top: -30px;
+  font-size: 19px; /* Adjust this value to the desired font size */
+}
+
+.newapp .boxorange6 span {
+  font-size: 19px; /* Adjust this value to the desired font size */
+}
+
+.newapp .boxorangee span {
+  font-size: 19px; /* Adjust this value to the desired font size */
+}
+
+
+.newapp .boxorange8 span {
+  font-size: 19px; /* Adjust this value to the desired font size */
+  margin-top: 0px;
+}
+
+
+
+
+
+
+ 
+  
+
+
+
+  .newapp .boxorange3,
+  .newapp .boxorange8 {
+    grid-row: span 2;
+  }
+
+  .newapp .boxblue4 {
+    grid-row: span 2;
+  }
+
+  .newapp .box img.FanMan-image {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: 115px;
+    left: -40px;
+    bottom: 0px;
+    width: auto;
+    height: auto;
+  }
+  
+}
+    

@@ -7,12 +7,12 @@ import ac1 from "./1.png";
 import ac2 from "./2.png";
 import ac3 from "./3.png";
 import ac4 from "./4.png";
-import ac5 from "./28.png";
-import ac6 from "./5.png";
-import ac7 from "./6.png";
-import ac8 from "./7.png";
-import ac9 from "./8.png";
-import ac10 from "./9.png";
+import ac5 from "./6.png";
+import ac6 from "./30.png";
+import ac7 from "./31.png";
+import ac8 from "./32.png";
+import ac9 from "./9.png";
+import ac10 from "./10.png";
 // Additional AC images
 import ac11 from "./10.png";
 import ac12 from "./11.png";
@@ -62,7 +62,7 @@ const ACSelection = () => {
           <img src={ac5} alt="AC 5" />
         </div>
         <div className="ac-item ac6" onClick={handleACClick}>
-          <img src={ac7} alt="AC 6" />
+          <img src={ac6} alt="AC 6" />
         </div>
         <div className="ac-item ac7" onClick={handleACClick}>
           <img src={ac7} alt="AC 7" />
@@ -71,7 +71,7 @@ const ACSelection = () => {
           <img src={ac8} alt="AC 8" />
         </div>
         <div className="ac-item ac9" onClick={handleACClick}>
-          <img src={ac10} alt="AC 9" />
+          <img src={ac9} alt="AC 9" />
         </div>
         <div className="ac-item ac10" onClick={handleACClick}>
           <img src={ac10} alt="AC 10" />
