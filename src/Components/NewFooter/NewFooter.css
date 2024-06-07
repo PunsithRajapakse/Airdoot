@@ -1,8 +1,8 @@
 .footer {
   position: relative;
-  background-color: black; /* Set the background color to black */
-  padding: 20px 20px;
-  height: 70vh; /* Adjust if necessary */
+  background-color: black;
+  padding: 10px 20px;
+  height: auto;
   color: #FFC610;
   display: flex;
   flex-direction: column;
@@ -17,49 +17,45 @@
   right: 0;
   bottom: 0;
   background-color: #1E191B;
-  z-index: 1; /* Ensure this layer is at the bottom */
-  height: 580px;
+  z-index: 1;
+  height: 0%;
 }
 
 .footer-logo {
-  z-index: 2; /* Ensure the logo is above the background */
+  z-index: 2;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  margin-top: -50px; /* Move the logo up */
+  align-items: center;
+  margin-top:55px; /* Adjust as needed */
 }
 
 .footer-logo img {
-  max-width: 100%; /* Ensure the logo image fits within the footer */
+  max-width: 100%;
   height: auto;
+  margin-top: 0px;
 }
 
 .footer-overlay {
-  z-index: 3; /* Ensure the overlay with text is on top */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  z-index: 3;
+  position: relative;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: space-between;
-  padding: 40px 20px;
+  padding: 0px 0px;
   width: 100%;
-  max-width: 1200px; /* Adjust as needed */
+  max-width: 1200px;
+  margin-top: -190px;
 }
 
-.footer-left {
+.footer-left, .footer-right {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 150px; /* Move the left boxes down */
 }
 
-.footer-right {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 300px; /* Move the right box down */
+.footer-right{
+  margin-right: 310px;
 }
 
 .footer-contact {
@@ -76,9 +72,9 @@
   margin: 10px 0;
   text-align: left;
   color: #FFC610;
-  width: 350px; /* Ensure all boxes are the same length */
-  height: 30px; /* Adjusted height */
-  border: 1px solid #FFC610; /* Add yellow border */
+  width: 350px;
+  height: auto;
+  border: 1px solid #FFC610;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -90,63 +86,90 @@
 
 .socials-box {
   background-color: #025951;
-  padding: 10px 20px;
+  padding: 1px 20px;
   border-radius: 35px;
   text-align: left;
   display: flex;
   align-items: center;
-  justify-content: left;
-  width: 350px; /* Ensure all boxes are the same length */
-  height: 30px; /* Adjusted height */
-  border: 1px solid #FFC610; /* Add yellow border */
+  justify-content: space-between;
+  width: 350px;
+  border: 1px solid #FFC610;
   font-family: "Poppins", sans-serif;
 }
 
 .footer-socials p {
   margin: 0;
-  padding-right: 83px;
 }
 
 .socials-box .social-icons {
- margin-top: 0px;
- margin-left: 50px;
-  
- 
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .footer-socials a {
-  color: #025951; /* Green color */
-  background-color: #FFC610; /* Yellow background */
-  font-family: "Poppins", sans-serif;
+  color: #025951;
+  background-color: #FFC610;
   border-radius: 50%;
   text-decoration: none;
-  margin: 0px 5px;
   font-size: 20px;
   padding: 5px;
   display: inline-flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
 }
 
 .footer-hours p {
   background-color: #025951;
-  padding: 10px 0px;
-  padding-right: 50px;
+  padding: 20px 20px;
   border-radius: 20px;
   text-align: left;
-  margin: 10px 0;
+  margin: 110px 0;
   color: #FFC610;
-  width: 300px; /* Ensure same width as other boxes */
-  height: 150px; /* Increased height for the right side box */
+  width: 250px;
   font-family: "Poppins", sans-serif;
- 
-  display: flex;
-  justify-content: center;
-  align-items:center;
 }
 
-.footer-right{
-  margin-right: 250px;
-  margin-top: 350px;
- 
+@media (max-width: 768px) {
+
+  .footer{
+    padding-top: 180px;
+  }
+  .footer-overlay {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: -10px;
+  }
+
+  .footer-contact{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 120px;
+  }
+
+  .contact-item{
+    width: 330px;
+  }
+
+  .footer-left{
+    margin-bottom: 0px;
+    margin-left: -1px;
+    
+  }
+
+  .socials-box{
+    width: 330px;
+  }
+
+  .footer-hours p {
+    margin-left: 315px;
+    margin-bottom: 15px;
+
+
+  }
+
+  .footer-logo img{
+    margin-bottom: -380px;
+  }
 }
