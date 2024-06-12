@@ -1,11 +1,7 @@
 import React, { useState, useRef } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Footer from "./Components/Footer/Footer";
 import Header from "./Components/HeaderNew/Header.jsx";
 import Home from "./Routes/Home/Home";
-import Services from "./Routes/Services/Services";
-import MoreServices from "./Routes/MoreServices/MoreServices";
-import BuyForm from "./Routes/Form/Form";
 import RollingPage from "./Components/Rollingpage/Rollingpage.jsx";
 import ACSelection from "./Components/ACSelection/ACSelection.jsx";
 import Banner from "./Components/Banner/Banner";
@@ -46,13 +42,8 @@ function App() {
               )}
             />
             <Route path="/plans" component={Plan} />
-            {/* <Route exact path="/services" component={Services} />
-            <Route exact path="/moreservices" component={MoreServices} />
-            <Route exact path='/form' component={BuyForm} />
-            <Route path="/ACSelection" component={ACSelection} /> */}
           </Switch>
-          {/* <Footer/> */}
-          <NewFooter/>
+          <NewFooter />
         </Router>
       ) : (
         <RollingPage onFinish={handleRollingPageFinish} />

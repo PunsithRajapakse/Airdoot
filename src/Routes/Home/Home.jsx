@@ -1,50 +1,24 @@
 import React from "react";
-import Banner from "../../Components/Banner/Banner"
-import Promotion from "../../Components/Promotion/Promotion"
 import Clients from "../../Components/Clients/Clients";
 import Brands from "../../Components/Brands/Brands";
-import WhatAllWeDo from "../../Components/WhatAllWeDo/WhatAllWeDo";
-import Choose from "../../Components/Choose/Choose";
-import Products from "../../Components/Products/Products";
-import Applications from"../../Components/Applications/Applications";
 import Van from "../../Components/Van/Van";
-import NewApp from "../../Components/NewApp/NewApp"
-import ContactForm from "../../Components/ContactForm/ContactForm";
+import NewApp from "../../Components/NewApp/NewApp";
 import Section from "../../Components/Section/Section";
-import NewFooter from "../../Components/NewFooter/NewFooter";
-import Plan from "../../Components/Plan/Plan";
-import AssistanceTypes from "../../Components/Assistance/Assistance";
-import ACSelection from "../../Components/ACSelection/ACSelection";
+import Assistance from "../../Components/Assistance/Assistance";
 import Specialisations from "../../Components/Specialisations/Specialisations";
-import Testimonials from "../../Components/Testimonials/Testimonials"
+import Testimonials from "../../Components/Testimonials/Testimonials";
 
 const Home = () => {
   return (
     <div className="home">
-      {/* <Banner />
-      <ACSelection /> */}
       <Section />
-      <AssistanceTypes />
-     <Specialisations />
-     <NewApp/>
-     <Brands />
-   
-     
-      {/* <Plan /> */}
-      <Testimonials />
-     <Clients />
-     {/* <NewFooter /> */}
-      
-        {/* <NewApp/>
-    <Promotion/>
-      <Choose/>
-      <WhatAllWeDo/>
-      <Products/>
-      <Applications/>
+      <Assistance />
+      <Specialisations />
+      <NewApp />
       <Brands />
+      <Testimonials />
       <Clients />
-      <ContactForm/> */}
-      {/* <Van />  */}
+      <Van />
     </div>
   );
 };

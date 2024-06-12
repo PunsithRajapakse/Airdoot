@@ -7,7 +7,7 @@ import shape4 from "./shape4-removebg-preview.png";
 import shape5 from "./Screenshot_2024-06-07_132941-removebg-preview.png";
 import shape6 from "./Screenshot_2024-06-07_133013-removebg-preview.png";
 
-const AssistanceTypes = () => {
+const Assistance = () => {
   return (
     <div className="A_container">
       <h1>types of assistance</h1>
@@ -71,4 +71,4 @@ const AssistanceTypes = () => {
   );
 };
 
-export default AssistanceTypes;
+export default Assistance;
