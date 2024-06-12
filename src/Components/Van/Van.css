@@ -4,6 +4,7 @@
     position: fixed; /* Fix the position of the car container */
     bottom: 0; /* Align the car container to the bottom of the viewport */
     transition: transform 0.0001s ease-in-out; /* Apply a smooth transition effect to the transform property */
+    z-index: 7;
     
   }
   
