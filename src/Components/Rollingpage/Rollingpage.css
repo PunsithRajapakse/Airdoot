@@ -32,12 +32,35 @@
   .Rollingpage .video-background {
     object-fit: fill; /* Adjust the video fit for smaller screens */
   }
-  
+
   .desktop-video {
     display: none; /* Hide desktop video on mobile */
   }
 
   .mobile-video {
     display: block; /* Display mobile video on mobile */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .desktop-video,
+  .mobile-video {
+    display: none; /* Hide desktop and mobile video on tablet */
+  }
+
+  .tablet-video {
+    display: block; /* Display tablet video on tablet */
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .desktop-video,
+  .mobile-video,
+  .tablet-video {
+    display: none; /* Hide desktop, mobile, and tablet video on macbook */
+  }
+
+  .macbook-video {
+    display: block; /* Display macbook video on macbook */
   }
 }
